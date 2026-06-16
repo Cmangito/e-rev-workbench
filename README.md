@@ -1,118 +1,146 @@
 # E-Rev Workbench
 
-A local Environmental Consulting Review workbench for early-stage site data review. It reads lab or field result tables, maps common environmental columns, normalizes units, compares against editable starter criteria, labels exceedances, checks QA items, builds simple concentration trends, separates same-day boring data into depth profiles, and plots sample locations from coordinates.
+**E-Rev Workbench** is a portfolio prototype for environmental consulting spreadsheet review. It explores how routine lab-result and field-data review could be made faster while keeping calculations visible, auditable, and separate from AI-generated narrative language.
 
-The app is also set up as a portfolio-ready prototype. It includes a short walkthrough, consulting value summary, project story, future build path, AI drafting support explanation, and a downloadable one-page portfolio brief.
+The project focuses on a practical consulting workflow: upload environmental result tables, confirm detected fields, screen QA review items, compare starter criteria, review trends and depth profiles, map sample locations, and export review-ready summaries.
 
-## Open
+## Project Story
 
-Open `index.html` in a browser.
+Environmental consulting work often starts with repetitive spreadsheet review before interpretation can begin: checking columns, filtering records, comparing criteria, reviewing QA concerns, building simple visuals, and drafting internal notes. E-Rev was built to test a responsible workflow where deterministic calculations come first and AI-supported drafting comes second.
 
-For a live portfolio link, publish the folder as a static site. See `DEPLOYMENT.md` for GitHub Pages and Netlify notes.
+The key design choice is that E-Rev owns the math. AI is positioned only as drafting support from verified E-Rev findings, not as the source of screening decisions.
 
-## Data
+## Screenshots
 
-Supported local formats:
+![E-Rev dashboard overview](share/screenshots/e-rev-dashboard-desktop.png)
+
+![Math guide](share/screenshots/e-rev-math-guide.png)
+
+![Map view](share/screenshots/e-rev-map-desktop.png)
+
+## What It Does
+
+- Reads CSV, TSV, TXT, and browser-supported Excel files
+- Detects common environmental data fields such as location, date, matrix, analyte, result, units, depth, latitude, and longitude
+- Normalizes simple unit conversions for water, soil, sediment, air, and soil-gas review
+- Compares results against editable starter screening criteria
+- Flags spreadsheet-level QA review items
+- Separates same-day boring intervals into depth profiles instead of time trends
+- Builds first-pass log-linear trend screens from dated detected concentrations
+- Plots mapped sample locations from latitude and longitude
+- Exports active tables, memo text, AI-ready prompts, local AI assistant briefs, portfolio briefs, and self-contained HTML review packages
+
+## Guides In The App
+
+E-Rev includes two in-app reference dialogs:
+
+- **Data Guide:** expected columns, file support, QA boundaries, filters, exports, mapping, criteria, and standards caveats
+- **Math Guide:** formulas and rules for parsing, unit normalization, exceedance multiples, QA flags, trend screening, depth profiles, map projection, and filtered views
+
+These guides are intentionally built into the interface so a reviewer can see what the app is doing without reading the source code.
+
+## Responsible AI Positioning
+
+The current static prototype does not call a live AI model and does not send project data to an external AI service. The AI-related features are local drafting aids:
+
+- an AI-ready prompt built from deterministic E-Rev findings
+- a local consultant-style draft brief
+- a draft QA checker for missing counts, caveats, QA references, and overconfident regulatory language
+
+A production version could add a secure backend for live AI drafting, but the backend would receive verified E-Rev findings rather than raw unchecked spreadsheet conclusions.
+
+## Standards Boundary
+
+E-Rev is a first-pass review assistant, not a finished regulatory tool. It does not perform:
+
+- formal laboratory data validation
+- QAPP/SAP compliance review
+- full Data Quality Assessment
+- human health or ecological risk assessment
+- cleanup-level selection
+- regulatory closure determinations
+- formal groundwater statistical compliance testing
+- plume modeling or geostatistics
+
+Screening criteria in this prototype are placeholders for workflow testing. Real reviews should use verified federal, state, client, or project-specific criteria with documented sources, units, media, exposure assumptions, and effective dates.
+
+## Data Support
+
+Primary supported formats:
 
 - CSV
 - TSV
 - TXT delimited tables
 
-CSV, TSV, and TXT are the primary share formats and run fully in the local browser. Excel `.xlsx` files are supported when the browser can load the optional SheetJS parser from the internet. If that parser cannot load, save the workbook tab as CSV and upload the CSV.
+CSV, TSV, TXT, and built-in sample-data workflows run fully in the browser. Excel files can be uploaded when the browser can load the optional SheetJS parser from the internet. If Excel parsing is unavailable, save the worksheet as CSV and upload the CSV.
 
-E-Rev scores likely header rows during import, so common lab-export title or project-information rows above the table can be skipped automatically.
+The app can skip common lab-export title or project-information rows by scoring likely header rows during import.
 
-## Workflow
+## Review Workflow
 
-The main review path is:
+1. Upload data or load the realistic sample dataset.
+2. Add project context.
+3. Confirm detected field mapping.
+4. Review QA flags before trusting tables or memo language.
+5. Review the dashboard, exceedance table, trends, depth profiles, and mapped locations.
+6. Use the Data Guide and Math Guide to verify assumptions.
+7. Export tables, memo language, AI prompts, or a self-contained review package.
 
-1. Upload data
-2. Add project context
-3. Confirm detected fields
-4. Review QA flags and dashboard summaries
-5. Review exceedances, trends, depth profiles, and mapped locations
-6. Export the active view, review memo, AI review prompt, AI assistant brief, portfolio brief, or HTML review package
+Filters apply to dashboard summaries, tables, trend choices, depth profiles, mapped locations, memo text, and CSV exports. When **Exceedances only** is active, tables narrow to exceedance records while trend and depth-profile charts preserve the full supporting series for any group containing an exceedance.
 
-Filters apply to the dashboard, result tables, trend calculations, depth profiles, mapped locations, report notes, review memo, and CSV exports. Use the clear button to return to the full dataset. When `Exceedances only` is active, tables narrow to exceedance records; trend and depth views preserve the full matching series for any group with an exceedance.
+## Sample Data
 
-Use the Help button in the top-right corner for the in-app Data Guide, and the calculator button for the Math Guide. The upload band also includes shortcut buttons for a blank results template, a criteria template, the small sample, and the larger realistic sample.
+The repository includes fictitious sample data for testing:
 
-The Math Guide documents the formulas and rules behind record parsing, unit normalization, criteria screening, QA flags, trends, depth profiles, map projection, and filtered views.
+- `sample-data/sample-environmental-results.csv`
+- `sample-data/large-realistic-environmental-results.csv`
 
-The Portfolio Brief panel explains what the project is, why it matters in consulting, how AI should be positioned, what skills it demonstrates, and what the production roadmap could include.
+The larger sample includes quarterly groundwater data, soil boring intervals, soil-gas results, reporting limits, qualifiers, coordinates, and groundwater elevations. It is generated from `sample-data/generate-realistic-sample.js`.
 
-Project Setup is stored in the browser for the local page and is used in report notes and export filenames. The Review Dashboard summarizes top exceedances, primary QA issues, trend mix, detection focus, QA breakdown, trend status, detection frequency, and ranked exceedances by analyte and location.
+## Verification
 
-The Review Memo export uses the current project setup and active filters. It includes project header, dataset summary, QA summary, screening summary, top exceedances, trend summary, depth profile summary, notes, and the screening criteria caveat.
+The project includes regression and math audit checks:
 
-The AI Review Prompt export packages the same deterministic findings into a drafting prompt for an AI assistant. It is intended for narrative drafting support; calculations and screening logic remain in E-Rev.
+- `tests/run-regression-tests.js` checks browser workflow behavior, header-row detection, depth interval handling, grouped trend behavior under **Exceedances only**, and clean-data preview messaging.
+- `tests/run-math-audit.js` independently recomputes the large sample counts, unit conversions, exceedances, QA flags, trend statuses, depth profiles, mapped locations, and selected edge cases.
 
-The AI Review Assistant panel creates a local consultant-style draft brief from the current E-Rev findings and checks pasted AI-written language for missing counts, missing criteria caveats, missing QA references, and common overconfident regulatory wording. It does not send data to an outside AI service.
+Current audited large-sample counts:
 
-The Review Package export creates a self-contained HTML file with project context, current filtered summaries, key tables, chart snapshots, memo text, AI prompt, AI assistant brief, and caveats. Open the HTML file in a browser or print it to PDF.
+- 992 records
+- 893 detections
+- 157 exceedances
+- 110 QA flags
+- 70 trend series
+- 36 depth profiles
+- 19 mapped locations
 
-The Portfolio Brief export creates a one-page HTML handout for portfolio review, live demos, or project discussions. If data is loaded, it includes a current snapshot of the active review counts.
-
-## Portfolio Positioning
-
-E-Rev is best framed as a workflow prototype, not a finished regulatory tool. The strongest explanation is:
-
-> I built E-Rev to explore how deterministic environmental spreadsheet review could be paired with AI-supported drafting in a way that stays auditable.
-
-What it demonstrates:
-
-- Environmental consulting workflow judgment
-- Spreadsheet intake and field-mapping logic
-- Screening-level QA and criteria review
-- Trend, depth-profile, and map visualization
-- Responsible AI positioning: verified calculations first, drafting support second
+Additional audit notes are in `share/E-Rev_Workbench_Audit_Notes.md`.
 
 ## Deployment
 
-E-Rev is a static HTML, CSS, and JavaScript app. It does not need a build step for the core CSV/sample workflow.
+E-Rev is a static HTML, CSS, and JavaScript app with no required build step.
 
-Recommended path:
+Recommended portfolio deployment:
 
-1. Use GitHub Pages first if this is mainly a portfolio project, because the live app and the code can live together.
-2. Use Netlify if you want the fastest drag-and-drop live link or easy preview deploys.
+1. Publish this repository with GitHub Pages from the `main` branch and `/ (root)` folder.
+2. Keep `index.html` at the top level of the repository.
+3. Use `DEPLOYMENT.md` for GitHub Pages and Netlify notes.
 
-Core CSV, TSV, TXT, and sample-data workflows run in the browser. Excel parsing, online basemap tiles, and Google Maps handoff require internet access.
+Core CSV/sample workflows run as static browser features. Optional online enhancements include Excel parsing, online basemap tiles, and Google Maps handoff.
 
-## Walkthrough Script
+## Project Structure
 
-1. Open `index.html` and load the realistic sample.
-2. Point out detected field mapping and editable screening criteria.
-3. Use the dashboard counts to frame the first-pass review.
-4. Filter to `SB-3` and `Lead` to explain depth profiles versus time trends.
-5. Show Map View and export the review package.
-6. Explain that the current AI features are local drafting support; a production version would use a secure backend for live model calls.
+```text
+index.html        Main app shell
+styles.css        App styling
+app.js            Data parsing, review logic, charts, exports, and guides
+sample-data/      Fictitious environmental result datasets
+share/            Portfolio brief, case study, audit notes, screenshots
+tests/            Browser regression and independent math audit scripts
+vendor/           Local icon library
+DEPLOYMENT.md     Static hosting notes
+```
 
-Trend labels require at least three unique sample dates. Nondetects are excluded from the trend fit. When the same location, matrix, and analyte has multiple results on one date, E-Rev keeps the highest result for that date so duplicate rows or soil boring depth intervals do not create vertical time-trend lines. Same-day soil boring depth intervals are not treated as time trends.
+## License
 
-Depth profiles require a mapped depth field and at least two unique depth intervals for the same location, date, matrix, and analyte. Direct interval columns such as `0-2 ft` are supported, and separate `From` / `To` columns are combined into intervals. They plot concentration against depth for same-day vertical sampling review.
-
-Map View requires mapped latitude and longitude fields. Coordinates are projected to a simple local east/north plot with equal scale so the north arrow and axis labels preserve local site geometry. The map includes latitude/longitude axis labels, an optional online basemap tile mode with a practical minimum window for single-location filters, and a button to open the current filtered map center in Google Maps.
-
-## Criteria
-
-The built-in screening criteria are starter placeholders for workflow testing. Add or import project-specific federal, state, client, or risk-based values before using results in a report.
-
-Criteria CSV imports should include recognizable columns such as:
-
-- `analyte`
-- `matrix`
-- `value` or `criterion`
-- `units`
-- `source`
-
-## Sample
-
-Use `sample-data/sample-environmental-results.csv` or the flask button in the app to load a small groundwater, soil, and soil-gas example.
-
-For a more realistic upload test, use `sample-data/large-realistic-environmental-results.csv`. It is generated from `sample-data/generate-realistic-sample.js` and includes quarterly groundwater results, soil boring results, soil-gas results, coordinates, qualifiers, reporting limits, and groundwater elevations.
-
-## Regression and Audit Checks
-
-`tests/run-regression-tests.js` exercises the core browser workflow for header-row detection, `From` / `To` depth interval handling, grouped trend behavior under `Exceedances only`, and the Clean Data preview note. It uses Playwright with Chrome.
-
-`tests/run-math-audit.js` independently recomputes the large sample counts, unit conversions, exceedances, QA flags, trend statuses, depth profiles, mapped locations, and selected edge cases. Audit notes are in `share/E-Rev_Workbench_Audit_Notes.md`.
+No open-source license is currently included. That means the code is visible for portfolio review, but reuse rights have not been granted.
