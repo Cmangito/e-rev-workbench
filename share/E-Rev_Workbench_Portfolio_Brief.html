@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>E-Rev Workbench Portfolio Brief</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #17211f;
+        --muted: #5f6d68;
+        --line: #d8e1dd;
+        --accent: #13786c;
+        --accent-soft: #e8f4f1;
+        --amber-soft: #fff4df;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: #f5f7f6;
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.42;
+      }
+
+      .page {
+        width: min(8.5in, calc(100vw - 28px));
+        min-height: 11in;
+        margin: 18px auto;
+        padding: 0.46in;
+        background: #fff;
+        border: 1px solid var(--line);
+      }
+
+      header {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 18px;
+        align-items: start;
+        padding-bottom: 18px;
+        border-bottom: 3px solid var(--accent);
+      }
+
+      .eyebrow {
+        margin: 0 0 5px;
+        color: var(--accent);
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 30px;
+        line-height: 1.05;
+      }
+
+      .subhead {
+        max-width: 6.2in;
+        margin-top: 9px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .tag {
+        display: inline-flex;
+        align-items: center;
+        min-height: 28px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 5px 10px;
+        background: var(--accent-soft);
+        color: #0d5f55;
+        font-size: 11px;
+        font-weight: 800;
+        white-space: nowrap;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+        margin-top: 18px;
+      }
+
+      section {
+        min-width: 0;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 13px;
+        background: #fbfcfc;
+      }
+
+      .wide {
+        grid-column: 1 / -1;
+      }
+
+      h2 {
+        margin-bottom: 8px;
+        font-size: 15px;
+      }
+
+      p,
+      li {
+        color: #34413d;
+        font-size: 12.5px;
+      }
+
+      ul,
+      ol {
+        margin: 8px 0 0;
+        padding-left: 18px;
+      }
+
+      li + li {
+        margin-top: 5px;
+      }
+
+      .metrics {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 8px;
+        margin-top: 10px;
+      }
+
+      .metric {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 9px;
+        background: #fff;
+      }
+
+      .metric strong {
+        display: block;
+        font-size: 18px;
+        line-height: 1;
+      }
+
+      .metric span {
+        display: block;
+        margin-top: 5px;
+        color: var(--muted);
+        font-size: 10.5px;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+
+      .note {
+        border-color: #efd39d;
+        background: var(--amber-soft);
+      }
+
+      footer {
+        margin-top: 14px;
+        padding-top: 10px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 11px;
+      }
+
+      @page {
+        size: letter;
+        margin: 0.35in;
+      }
+
+      @media print {
+        body {
+          background: #fff;
+        }
+
+        .page {
+          width: auto;
+          min-height: auto;
+          margin: 0;
+          padding: 0;
+          border: 0;
+        }
+      }
+
+      @media (max-width: 760px) {
+        .page {
+          padding: 18px;
+        }
+
+        header,
+        .grid,
+        .metrics {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <div>
+          <p class="eyebrow">Portfolio project</p>
+          <h1>E-Rev Workbench</h1>
+          <p class="subhead">A small exploration of how spreadsheet-heavy environmental consulting review could be streamlined with transparent calculations first and AI-supported drafting second.</p>
+        </div>
+        <span class="tag">Environmental Consulting Review</span>
+      </header>
+
+      <div class="grid">
+        <section>
+          <h2>Why I Built It</h2>
+          <p>This portfolio prototype was inspired by a practical consulting workflow question: where can AI help without hiding the math? I wanted to make the idea concrete by building a local workflow that reads result tables, checks common issues, and produces review-ready outputs.</p>
+        </section>
+
+        <section>
+          <h2>What It Does</h2>
+          <ul>
+            <li>Reads CSV, TSV, TXT, and browser-supported Excel files.</li>
+            <li>Maps common environmental fields such as location, date, matrix, analyte, result, units, depth, and coordinates.</li>
+            <li>Flags QA review items and screens placeholder criteria.</li>
+            <li>Builds exceedance tables, trend views, depth profiles, and map views.</li>
+          </ul>
+        </section>
+
+        <section class="wide">
+          <h2>Realistic Sample Snapshot</h2>
+          <p>The included dataset is fictitious but shaped like a multi-matrix environmental review file, with groundwater, soil, soil gas, coordinates, qualifiers, reporting limits, depth intervals, and repeated sample dates.</p>
+          <div class="metrics">
+            <div class="metric"><strong>992</strong><span>Records</span></div>
+            <div class="metric"><strong>893</strong><span>Detections</span></div>
+            <div class="metric"><strong>157</strong><span>Exceedances</span></div>
+            <div class="metric"><strong>110</strong><span>QA Flags</span></div>
+          </div>
+        </section>
+
+        <section>
+          <h2>What It Demonstrates</h2>
+          <ul>
+            <li>Environmental consulting workflow judgment.</li>
+            <li>Spreadsheet intake, field mapping, QA triage, and screening logic.</li>
+            <li>Trend, depth-profile, and map visualization for review conversations.</li>
+            <li>Responsible AI positioning: verified calculations first, drafting support second.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Where AI Fits</h2>
+          <p>The app does not rely on AI to invent conclusions or redo the math. E-Rev produces deterministic findings locally, then packages those findings into AI-ready prompts and draft-review checks. A production version could use a secure backend to generate memo language from verified findings.</p>
+        </section>
+
+        <section>
+          <h2>Consulting Value</h2>
+          <ul>
+            <li>Reduces repetitive spreadsheet sorting and manual summary work.</li>
+            <li>Makes early QA checks more consistent.</li>
+            <li>Keeps trend, depth-profile, and map outputs visible and auditable.</li>
+            <li>Gives consultants faster starting points for interpretation and communication.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Production Build Path</h2>
+          <ul>
+            <li>Verified federal, state, client, and project-specific criteria libraries.</li>
+            <li>Secure AI drafting and review comments.</li>
+            <li>Word/PDF exports aligned to company or client templates.</li>
+            <li>Project storage, reviewer signoff, and versioned review packages.</li>
+            <li>Expanded GIS and hydrogeology tools.</li>
+          </ul>
+        </section>
+
+        <section class="note">
+          <h2>Limitations</h2>
+          <p>This is a portfolio prototype, not a production or regulatory tool. It uses fictitious sample data and placeholder criteria. Trend labels and exceedance checks are first-pass review aids and should be confirmed with verified standards, project context, and professional judgment.</p>
+        </section>
+      </div>
+
+      <footer>
+        E-Rev Workbench is intended to demonstrate workflow thinking: auditable environmental review logic first, AI-supported narrative drafting second.
+      </footer>
+    </main>
+  </body>
+</html>

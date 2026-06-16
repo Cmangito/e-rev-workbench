@@ -1,0 +1,16 @@
+Sample ID,Location,Sample Date,Matrix,Analyte,Result,Units,Reporting Limit,Qualifier
+MW-1-2024Q1,MW-1,2024-01-18,Groundwater,Benzene,3.1,ug/L,0.5,
+MW-1-2024Q2,MW-1,2024-04-19,Groundwater,Benzene,4.4,ug/L,0.5,
+MW-1-2024Q3,MW-1,2024-07-17,Groundwater,Benzene,5.8,ug/L,0.5,
+MW-1-2024Q4,MW-1,2024-10-21,Groundwater,Benzene,7.2,ug/L,0.5,
+MW-2-2024Q1,MW-2,2024-01-18,Groundwater,Benzene,<0.5,ug/L,0.5,U
+MW-2-2024Q2,MW-2,2024-04-19,Groundwater,Benzene,0.8,ug/L,0.5,J
+MW-2-2024Q3,MW-2,2024-07-17,Groundwater,Benzene,1.1,ug/L,0.5,J
+MW-2-2024Q4,MW-2,2024-10-21,Groundwater,Benzene,1.0,ug/L,0.5,
+MW-3-2024Q1,MW-3,2024-01-18,Groundwater,Trichloroethene,12,ug/L,0.5,
+MW-3-2024Q2,MW-3,2024-04-19,Groundwater,Trichloroethene,9.5,ug/L,0.5,
+MW-3-2024Q3,MW-3,2024-07-17,Groundwater,Trichloroethene,6.2,ug/L,0.5,
+MW-3-2024Q4,MW-3,2024-10-21,Groundwater,Trichloroethene,4.7,ug/L,0.5,
+SB-1-5,SB-1,2024-03-12,Soil,Arsenic,8.4,mg/kg,0.2,
+SB-2-5,SB-2,2024-03-12,Soil,Benzene,0.08,mg/kg,0.005,J
+SG-1,SG-1,2024-03-14,Soil Gas,Tetrachloroethene,1200,ug/m3,10,

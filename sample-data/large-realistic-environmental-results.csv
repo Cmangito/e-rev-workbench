@@ -1,0 +1,993 @@
+Sample ID,Location,Sample Date,Matrix,Sample Depth ft bgs,Analyte,Result,Units,Reporting Limit,Qualifier,Latitude,Longitude,Groundwater Elevation ft,Depth to Water ft,Site Area,Analytical Method
+MW-1-2023Q1-B,MW-1,2023-02-16,Groundwater,,Benzene,16.8,ug/L,0.5,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2023Q1-T,MW-1,2023-02-16,Groundwater,,Toluene,259,ug/L,1,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2023Q1-E,MW-1,2023-02-16,Groundwater,,Ethylbenzene,69.4,ug/L,1,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2023Q1-X,MW-1,2023-02-16,Groundwater,,Xylenes,425,ug/L,2,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2023Q1-T,MW-1,2023-02-16,Groundwater,,Trichloroethene,12.6,ug/L,0.5,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2023Q1-T,MW-1,2023-02-16,Groundwater,,Tetrachloroethene,8.85,ug/L,0.5,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2023Q1-VC,MW-1,2023-02-16,Groundwater,,Vinyl chloride,2.09,ug/L,0.2,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2023Q1-A,MW-1,2023-02-16,Groundwater,,Arsenic,9.33,ug/L,1,,35.47821,-97.51566,1171.49,12.73,Source,EPA 6010D
+MW-1-2023Q1-NAN,MW-1,2023-02-16,Groundwater,,Nitrate as N,4134,ug/L,50,,35.47821,-97.51566,1171.49,12.73,Source,EPA 300.0
+MW-2-2023Q1-B,MW-2,2023-02-16,Groundwater,,Benzene,14.7,ug/L,0.5,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2023Q1-T,MW-2,2023-02-16,Groundwater,,Toluene,181,ug/L,1,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2023Q1-E,MW-2,2023-02-16,Groundwater,,Ethylbenzene,48.2,ug/L,1,R,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2023Q1-X,MW-2,2023-02-16,Groundwater,,Xylenes,313,ug/L,2,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2023Q1-T,MW-2,2023-02-16,Groundwater,,Trichloroethene,8.71,ug/L,0.5,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2023Q1-T,MW-2,2023-02-16,Groundwater,,Tetrachloroethene,5.94,ug/L,0.5,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2023Q1-VC,MW-2,2023-02-16,Groundwater,,Vinyl chloride,1.67,ug/L,0.2,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2023Q1-A,MW-2,2023-02-16,Groundwater,,Arsenic,7.08,ug/L,1,,35.47842,-97.51498,1171.04,13.18,Source,EPA 6010D
+MW-2-2023Q1-NAN,MW-2,2023-02-16,Groundwater,,Nitrate as N,3113,ug/L,50,,35.47842,-97.51498,1171.04,13.18,Source,EPA 300.0
+MW-3-2023Q1-B,MW-3,2023-02-16,Groundwater,,Benzene,9.28,ug/L,0.5,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2023Q1-T,MW-3,2023-02-16,Groundwater,,Toluene,118,ug/L,1,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2023Q1-E,MW-3,2023-02-16,Groundwater,,Ethylbenzene,39.9,ug/L,1,B,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2023Q1-X,MW-3,2023-02-16,Groundwater,,Xylenes,232,ug/L,2,B,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2023Q1-T,MW-3,2023-02-16,Groundwater,,Trichloroethene,6.16,ug/L,0.5,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2023Q1-T,MW-3,2023-02-16,Groundwater,,Tetrachloroethene,4.64,ug/L,0.5,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2023Q1-VC,MW-3,2023-02-16,Groundwater,,Vinyl chloride,0.984,ug/L,0.2,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2023Q1-A,MW-3,2023-02-16,Groundwater,,Arsenic,4.05,ug/L,1,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 6010D
+MW-3-2023Q1-NAN,MW-3,2023-02-16,Groundwater,,Nitrate as N,1762,ug/L,50,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 300.0
+MW-4-2023Q1-B,MW-4,2023-02-16,Groundwater,,Benzene,5.32,ug/L,0.5,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2023Q1-T,MW-4,2023-02-16,Groundwater,,Toluene,90.9,ug/L,1,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2023Q1-E,MW-4,2023-02-16,Groundwater,,Ethylbenzene,26.3,ug/L,1,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2023Q1-X,MW-4,2023-02-16,Groundwater,,Xylenes,166,ug/L,2,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2023Q1-T,MW-4,2023-02-16,Groundwater,,Trichloroethene,3.33,ug/L,0.5,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2023Q1-T,MW-4,2023-02-16,Groundwater,,Tetrachloroethene,3.05,ug/L,0.5,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2023Q1-VC,MW-4,2023-02-16,Groundwater,,Vinyl chloride,0.664,ug/L,0.2,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2023Q1-A,MW-4,2023-02-16,Groundwater,,Arsenic,2.85,ug/L,1,J,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 6010D
+MW-4-2023Q1-NAN,MW-4,2023-02-16,Groundwater,,Nitrate as N,1464,ug/L,50,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 300.0
+MW-5-2023Q1-B,MW-5,2023-02-16,Groundwater,,Benzene,3.03,ug/L,0.5,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2023Q1-T,MW-5,2023-02-16,Groundwater,,Toluene,37.7,ug/L,1,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2023Q1-E,MW-5,2023-02-16,Groundwater,,Ethylbenzene,9.04,ug/L,1,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2023Q1-X,MW-5,2023-02-16,Groundwater,,Xylenes,82.0,ug/L,2,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2023Q1-T,MW-5,2023-02-16,Groundwater,,Trichloroethene,1.84,ug/L,0.5,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2023Q1-T,MW-5,2023-02-16,Groundwater,,Tetrachloroethene,1.36,ug/L,0.5,J,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2023Q1-VC,MW-5,2023-02-16,Groundwater,,Vinyl chloride,0.393,ug/L,0.2,J,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2023Q1-A,MW-5,2023-02-16,Groundwater,,Arsenic,1.49,ug/L,1,J,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 6010D
+MW-5-2023Q1-NAN,MW-5,2023-02-16,Groundwater,,Nitrate as N,737,ug/L,50,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 300.0
+MW-6-2023Q1-B,MW-6,2023-02-16,Groundwater,,Benzene,0.524,ug/L,0.5,J,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2023Q1-T,MW-6,2023-02-16,Groundwater,,Toluene,31.2,ug/L,1,,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2023Q1-E,MW-6,2023-02-16,Groundwater,,Ethylbenzene,5.21,ug/L,1,,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2023Q1-X,MW-6,2023-02-16,Groundwater,,Xylenes,14.3,ug/L,2,,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2023Q1-T,MW-6,2023-02-16,Groundwater,,Trichloroethene,1.39,ug/L,0.5,J,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2023Q1-T,MW-6,2023-02-16,Groundwater,,Tetrachloroethene,1.19,ug/L,0.5,J,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2023Q1-VC,MW-6,2023-02-16,Groundwater,,Vinyl chloride,<0.2,ug/L,0.2,U,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2023Q1-A,MW-6,2023-02-16,Groundwater,,Arsenic,1.34,ug/L,1,J,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 6010D
+MW-6-2023Q1-NAN,MW-6,2023-02-16,Groundwater,,Nitrate as N,299,ug/L,50,,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 300.0
+MW-7-2023Q1-B,MW-7,2023-02-16,Groundwater,,Benzene,1.42,ug/L,0.5,J,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2023Q1-T,MW-7,2023-02-16,Groundwater,,Toluene,14.9,ug/L,1,,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2023Q1-E,MW-7,2023-02-16,Groundwater,,Ethylbenzene,4.36,ug/L,1,,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2023Q1-X,MW-7,2023-02-16,Groundwater,,Xylenes,81.2,ug/L,2,,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2023Q1-T,MW-7,2023-02-16,Groundwater,,Trichloroethene,1.67,ug/L,0.5,,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2023Q1-T,MW-7,2023-02-16,Groundwater,,Tetrachloroethene,<0.5,ug/L,0.5,U,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2023Q1-VC,MW-7,2023-02-16,Groundwater,,Vinyl chloride,0.257,ug/L,0.2,J,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2023Q1-A,MW-7,2023-02-16,Groundwater,,Arsenic,1.12,ug/L,1,J,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 6010D
+MW-7-2023Q1-NAN,MW-7,2023-02-16,Groundwater,,Nitrate as N,720,ug/L,50,,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 300.0
+MW-8-2023Q1-B,MW-8,2023-02-16,Groundwater,,Benzene,<0.5,ug/L,0.5,U,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2023Q1-T,MW-8,2023-02-16,Groundwater,,Toluene,2.74,ug/L,1,J,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2023Q1-E,MW-8,2023-02-16,Groundwater,,Ethylbenzene,4.68,ug/L,1,,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2023Q1-X,MW-8,2023-02-16,Groundwater,,Xylenes,30.3,ug/L,2,,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2023Q1-T,MW-8,2023-02-16,Groundwater,,Trichloroethene,<0.5,ug/L,0.5,U,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2023Q1-T,MW-8,2023-02-16,Groundwater,,Tetrachloroethene,0.894,ug/L,0.5,J,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2023Q1-VC,MW-8,2023-02-16,Groundwater,,Vinyl chloride,<0.2,ug/L,0.2,U,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2023Q1-A,MW-8,2023-02-16,Groundwater,,Arsenic,<1,ug/L,1,U,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 6010D
+MW-8-2023Q1-NAN,MW-8,2023-02-16,Groundwater,,Nitrate as N,<50,ug/L,50,U,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 300.0
+MW-1-2023Q2-B,MW-1,2023-05-18,Groundwater,,Benzene,18.1,ug/L,0.5,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2023Q2-T,MW-1,2023-05-18,Groundwater,,Toluene,224,ug/L,1,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2023Q2-E,MW-1,2023-05-18,Groundwater,,Ethylbenzene,66.4,ug/L,1,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2023Q2-X,MW-1,2023-05-18,Groundwater,,Xylenes,429,ug/L,2,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2023Q2-T,MW-1,2023-05-18,Groundwater,,Trichloroethene,13.8,ug/L,0.5,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2023Q2-T,MW-1,2023-05-18,Groundwater,,Tetrachloroethene,8.71,ug/L,0.5,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2023Q2-VC,MW-1,2023-05-18,Groundwater,,Vinyl chloride,2.34,ug/L,0.2,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2023Q2-A,MW-1,2023-05-18,Groundwater,,Arsenic,9.52,ug/L,1,,35.47821,-97.51566,1171.13,13.09,Source,EPA 6010D
+MW-1-2023Q2-NAN,MW-1,2023-05-18,Groundwater,,Nitrate as N,4292,ug/L,50,R,35.47821,-97.51566,1171.13,13.09,Source,EPA 300.0
+MW-2-2023Q2-B,MW-2,2023-05-18,Groundwater,,Benzene,13.3,ug/L,0.5,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2023Q2-T,MW-2,2023-05-18,Groundwater,,Toluene,162,ug/L,1,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2023Q2-E,MW-2,2023-05-18,Groundwater,,Ethylbenzene,53.5,ug/L,1,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2023Q2-X,MW-2,2023-05-18,Groundwater,,Xylenes,315,ug/L,2,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2023Q2-T,MW-2,2023-05-18,Groundwater,,Trichloroethene,10.4,ug/L,0.5,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2023Q2-T,MW-2,2023-05-18,Groundwater,,Tetrachloroethene,6.45,ug/L,0.5,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2023Q2-VC,MW-2,2023-05-18,Groundwater,,Vinyl chloride,1.67,ug/L,0.2,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2023Q2-A,MW-2,2023-05-18,Groundwater,,Arsenic,7.62,ug/L,1,,35.47842,-97.51498,1170.68,13.54,Source,EPA 6010D
+MW-2-2023Q2-NAN,MW-2,2023-05-18,Groundwater,,Nitrate as N,3124,ug/L,50,,35.47842,-97.51498,1170.68,13.54,Source,EPA 300.0
+MW-3-2023Q2-B,MW-3,2023-05-18,Groundwater,,Benzene,9.39,ug/L,0.5,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2023Q2-T,MW-3,2023-05-18,Groundwater,,Toluene,128,ug/L,1,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2023Q2-E,MW-3,2023-05-18,Groundwater,,Ethylbenzene,33.5,ug/L,1,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2023Q2-X,MW-3,2023-05-18,Groundwater,,Xylenes,199,ug/L,2,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2023Q2-T,MW-3,2023-05-18,Groundwater,,Trichloroethene,6.32,ug/L,0.5,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2023Q2-T,MW-3,2023-05-18,Groundwater,,Tetrachloroethene,4.10,ug/L,0.5,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2023Q2-VC,MW-3,2023-05-18,Groundwater,,Vinyl chloride,1.21,ug/L,0.2,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2023Q2-A,MW-3,2023-05-18,Groundwater,,Arsenic,5.55,ug/L,1,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 6010D
+MW-3-2023Q2-NAN,MW-3,2023-05-18,Groundwater,,Nitrate as N,2009,ug/L,50,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 300.0
+MW-4-2023Q2-B,MW-4,2023-05-18,Groundwater,,Benzene,4.35,ug/L,0.5,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2023Q2-T,MW-4,2023-05-18,Groundwater,,Toluene,76.7,ug/L,1,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2023Q2-E,MW-4,2023-05-18,Groundwater,,Ethylbenzene,19.6,ug/L,1,R,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2023Q2-X,MW-4,2023-05-18,Groundwater,,Xylenes,120,ug/L,2,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2023Q2-T,MW-4,2023-05-18,Groundwater,,Trichloroethene,3.51,ug/L,0.5,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2023Q2-T,MW-4,2023-05-18,Groundwater,,Tetrachloroethene,2.95,ug/L,0.5,R,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2023Q2-VC,MW-4,2023-05-18,Groundwater,,Vinyl chloride,0.816,ug/L,0.2,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2023Q2-A,MW-4,2023-05-18,Groundwater,,Arsenic,2.97,ug/L,1,J,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 6010D
+MW-4-2023Q2-NAN,MW-4,2023-05-18,Groundwater,,Nitrate as N,1384,ug/L,50,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 300.0
+MW-5-2023Q2-B,MW-5,2023-05-18,Groundwater,,Benzene,1.72,ug/L,0.5,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2023Q2-T,MW-5,2023-05-18,Groundwater,,Toluene,27.3,ug/L,1,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2023Q2-E,MW-5,2023-05-18,Groundwater,,Ethylbenzene,8.81,ug/L,1,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2023Q2-X,MW-5,2023-05-18,Groundwater,,Xylenes,70.4,ug/L,2,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2023Q2-T,MW-5,2023-05-18,Groundwater,,Trichloroethene,2.54,ug/L,0.5,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2023Q2-T,MW-5,2023-05-18,Groundwater,,Tetrachloroethene,1.38,ug/L,0.5,J,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2023Q2-VC,MW-5,2023-05-18,Groundwater,,Vinyl chloride,0.398,ug/L,0.2,J,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2023Q2-A,MW-5,2023-05-18,Groundwater,,Arsenic,2.36,ug/L,1,J,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 6010D
+MW-5-2023Q2-NAN,MW-5,2023-05-18,Groundwater,,Nitrate as N,795,ug/L,50,R,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 300.0
+MW-6-2023Q2-B,MW-6,2023-05-18,Groundwater,,Benzene,2.75,ug/L,0.5,,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2023Q2-T,MW-6,2023-05-18,Groundwater,,Toluene,19.0,ug/L,1,,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2023Q2-E,MW-6,2023-05-18,Groundwater,,Ethylbenzene,9.22,ug/L,1,,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2023Q2-X,MW-6,2023-05-18,Groundwater,,Xylenes,5.95,ug/L,2,J,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2023Q2-T,MW-6,2023-05-18,Groundwater,,Trichloroethene,1.06,ug/L,0.5,J,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2023Q2-T,MW-6,2023-05-18,Groundwater,,Tetrachloroethene,0.780,ug/L,0.5,J,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2023Q2-VC,MW-6,2023-05-18,Groundwater,,Vinyl chloride,<0.2,ug/L,0.2,U,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2023Q2-A,MW-6,2023-05-18,Groundwater,,Arsenic,<1,ug/L,1,U,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 6010D
+MW-6-2023Q2-NAN,MW-6,2023-05-18,Groundwater,,Nitrate as N,421,ug/L,50,,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 300.0
+MW-7-2023Q2-B,MW-7,2023-05-18,Groundwater,,Benzene,1.46,ug/L,0.5,J,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2023Q2-T,MW-7,2023-05-18,Groundwater,,Toluene,38.4,ug/L,1,,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2023Q2-E,MW-7,2023-05-18,Groundwater,,Ethylbenzene,7.28,ug/L,1,,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2023Q2-X,MW-7,2023-05-18,Groundwater,,Xylenes,48.3,ug/L,2,,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2023Q2-T,MW-7,2023-05-18,Groundwater,,Trichloroethene,2.31,ug/L,0.5,,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2023Q2-T,MW-7,2023-05-18,Groundwater,,Tetrachloroethene,0.694,ug/L,0.5,J,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2023Q2-VC,MW-7,2023-05-18,Groundwater,,Vinyl chloride,<0.2,ug/L,0.2,U,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2023Q2-A,MW-7,2023-05-18,Groundwater,,Arsenic,1.64,ug/L,1,J,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 6010D
+MW-7-2023Q2-NAN,MW-7,2023-05-18,Groundwater,,Nitrate as N,231,ug/L,50,,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 300.0
+MW-8-2023Q2-B,MW-8,2023-05-18,Groundwater,,Benzene,1.02,ug/L,0.5,J,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2023Q2-T,MW-8,2023-05-18,Groundwater,,Toluene,11.9,ug/L,1,,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2023Q2-E,MW-8,2023-05-18,Groundwater,,Ethylbenzene,<1,ug/L,1,U,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2023Q2-X,MW-8,2023-05-18,Groundwater,,Xylenes,<2,ug/L,2,U,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2023Q2-T,MW-8,2023-05-18,Groundwater,,Trichloroethene,<0.5,ug/L,0.5,U,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2023Q2-T,MW-8,2023-05-18,Groundwater,,Tetrachloroethene,0.713,ug/L,0.5,J,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2023Q2-VC,MW-8,2023-05-18,Groundwater,,Vinyl chloride,0.210,ug/L,0.2,J,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2023Q2-A,MW-8,2023-05-18,Groundwater,,Arsenic,<1,ug/L,1,U,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 6010D
+MW-8-2023Q2-NAN,MW-8,2023-05-18,Groundwater,,Nitrate as N,160,ug/L,50,,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 300.0
+MW-1-2023Q3-B,MW-1,2023-08-17,Groundwater,,Benzene,15.4,ug/L,0.5,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2023Q3-T,MW-1,2023-08-17,Groundwater,,Toluene,198,ug/L,1,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2023Q3-E,MW-1,2023-08-17,Groundwater,,Ethylbenzene,52.7,ug/L,1,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2023Q3-X,MW-1,2023-08-17,Groundwater,,Xylenes,380,ug/L,2,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2023Q3-T,MW-1,2023-08-17,Groundwater,,Trichloroethene,12.6,ug/L,0.5,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2023Q3-T,MW-1,2023-08-17,Groundwater,,Tetrachloroethene,7.74,ug/L,0.5,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2023Q3-VC,MW-1,2023-08-17,Groundwater,,Vinyl chloride,2.17,ug/L,0.2,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2023Q3-A,MW-1,2023-08-17,Groundwater,,Arsenic,9.44,ug/L,1,,35.47821,-97.51566,1171.60,12.62,Source,EPA 6010D
+MW-1-2023Q3-NAN,MW-1,2023-08-17,Groundwater,,Nitrate as N,3814,ug/L,50,,35.47821,-97.51566,1171.60,12.62,Source,EPA 300.0
+MW-2-2023Q3-B,MW-2,2023-08-17,Groundwater,,Benzene,11.0,ug/L,0.5,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2023Q3-T,MW-2,2023-08-17,Groundwater,,Toluene,140,ug/L,1,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2023Q3-E,MW-2,2023-08-17,Groundwater,,Ethylbenzene,41.4,ug/L,1,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2023Q3-X,MW-2,2023-08-17,Groundwater,,Xylenes,317,ug/L,2,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2023Q3-T,MW-2,2023-08-17,Groundwater,,Trichloroethene,9.44,ug/L,0.5,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2023Q3-T,MW-2,2023-08-17,Groundwater,,Tetrachloroethene,5.65,ug/L,0.5,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2023Q3-VC,MW-2,2023-08-17,Groundwater,,Vinyl chloride,1.55,ug/L,0.2,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2023Q3-A,MW-2,2023-08-17,Groundwater,,Arsenic,6.87,ug/L,1,,35.47842,-97.51498,1171.15,13.07,Source,EPA 6010D
+MW-2-2023Q3-NAN,MW-2,2023-08-17,Groundwater,,Nitrate as N,3201,ug/L,50,,35.47842,-97.51498,1171.15,13.07,Source,EPA 300.0
+MW-3-2023Q3-B,MW-3,2023-08-17,Groundwater,,Benzene,6.92,ug/L,0.5,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2023Q3-T,MW-3,2023-08-17,Groundwater,,Toluene,105,ug/L,1,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2023Q3-E,MW-3,2023-08-17,Groundwater,,Ethylbenzene,25.1,ug/L,1,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2023Q3-X,MW-3,2023-08-17,Groundwater,,Xylenes,193,ug/L,2,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2023Q3-T,MW-3,2023-08-17,Groundwater,,Trichloroethene,6.12,ug/L,0.5,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2023Q3-T,MW-3,2023-08-17,Groundwater,,Tetrachloroethene,4.06,ug/L,0.5,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2023Q3-VC,MW-3,2023-08-17,Groundwater,,Vinyl chloride,1.21,ug/L,0.2,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2023Q3-A,MW-3,2023-08-17,Groundwater,,Arsenic,4.84,ug/L,1,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 6010D
+MW-3-2023Q3-NAN,MW-3,2023-08-17,Groundwater,,Nitrate as N,2310,ug/L,50,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 300.0
+MW-4-2023Q3-B,MW-4,2023-08-17,Groundwater,,Benzene,5.78,ug/L,0.5,B,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2023Q3-T,MW-4,2023-08-17,Groundwater,,Toluene,47.5,ug/L,1,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2023Q3-E,MW-4,2023-08-17,Groundwater,,Ethylbenzene,14.0,ug/L,1,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2023Q3-X,MW-4,2023-08-17,Groundwater,,Xylenes,92.8,ug/L,2,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2023Q3-T,MW-4,2023-08-17,Groundwater,,Trichloroethene,3.06,ug/L,0.5,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2023Q3-T,MW-4,2023-08-17,Groundwater,,Tetrachloroethene,2.45,ug/L,0.5,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2023Q3-VC,MW-4,2023-08-17,Groundwater,,Vinyl chloride,0.776,ug/L,0.2,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2023Q3-A,MW-4,2023-08-17,Groundwater,,Arsenic,2.80,ug/L,1,J,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 6010D
+MW-4-2023Q3-NAN,MW-4,2023-08-17,Groundwater,,Nitrate as N,1400,ug/L,50,B,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 300.0
+MW-5-2023Q3-B,MW-5,2023-08-17,Groundwater,,Benzene,3.55,ug/L,0.5,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2023Q3-T,MW-5,2023-08-17,Groundwater,,Toluene,24.0,ug/L,1,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2023Q3-E,MW-5,2023-08-17,Groundwater,,Ethylbenzene,7.63,ug/L,1,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2023Q3-X,MW-5,2023-08-17,Groundwater,,Xylenes,62.0,ug/L,2,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2023Q3-T,MW-5,2023-08-17,Groundwater,,Trichloroethene,2.74,ug/L,0.5,R,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2023Q3-T,MW-5,2023-08-17,Groundwater,,Tetrachloroethene,0.887,ug/L,0.5,J,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2023Q3-VC,MW-5,2023-08-17,Groundwater,,Vinyl chloride,0.378,ug/L,0.2,J,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2023Q3-A,MW-5,2023-08-17,Groundwater,,Arsenic,1.91,ug/L,1,J,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 6010D
+MW-5-2023Q3-NAN,MW-5,2023-08-17,Groundwater,,Nitrate as N,751,ug/L,50,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 300.0
+MW-6-2023Q3-B,MW-6,2023-08-17,Groundwater,,Benzene,<0.5,ug/L,0.5,U,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2023Q3-T,MW-6,2023-08-17,Groundwater,,Toluene,10.2,ug/L,1,,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2023Q3-E,MW-6,2023-08-17,Groundwater,,Ethylbenzene,1.11,ug/L,1,J,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2023Q3-X,MW-6,2023-08-17,Groundwater,,Xylenes,44.1,ug/L,2,,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2023Q3-T,MW-6,2023-08-17,Groundwater,,Trichloroethene,<0.5,ug/L,0.5,U,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2023Q3-T,MW-6,2023-08-17,Groundwater,,Tetrachloroethene,<0.5,ug/L,0.5,U,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2023Q3-VC,MW-6,2023-08-17,Groundwater,,Vinyl chloride,0.243,ug/L,0.2,J,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2023Q3-A,MW-6,2023-08-17,Groundwater,,Arsenic,<1,ug/L,1,U,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 6010D
+MW-6-2023Q3-NAN,MW-6,2023-08-17,Groundwater,,Nitrate as N,554,ug/L,50,,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 300.0
+MW-7-2023Q3-B,MW-7,2023-08-17,Groundwater,,Benzene,1.94,ug/L,0.5,,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2023Q3-T,MW-7,2023-08-17,Groundwater,,Toluene,20.7,ug/L,1,,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2023Q3-E,MW-7,2023-08-17,Groundwater,,Ethylbenzene,10.0,ug/L,1,,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2023Q3-X,MW-7,2023-08-17,Groundwater,,Xylenes,12.1,ug/L,2,,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2023Q3-T,MW-7,2023-08-17,Groundwater,,Trichloroethene,1.20,ug/L,0.5,J,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2023Q3-T,MW-7,2023-08-17,Groundwater,,Tetrachloroethene,1.48,ug/L,0.5,J,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2023Q3-VC,MW-7,2023-08-17,Groundwater,,Vinyl chloride,<0.2,ug/L,0.2,U,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2023Q3-A,MW-7,2023-08-17,Groundwater,,Arsenic,1.70,ug/L,1,J,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 6010D
+MW-7-2023Q3-NAN,MW-7,2023-08-17,Groundwater,,Nitrate as N,544,ug/L,50,,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 300.0
+MW-8-2023Q3-B,MW-8,2023-08-17,Groundwater,,Benzene,<0.5,ug/L,0.5,U,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2023Q3-T,MW-8,2023-08-17,Groundwater,,Toluene,24.8,ug/L,1,,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2023Q3-E,MW-8,2023-08-17,Groundwater,,Ethylbenzene,4.66,ug/L,1,,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2023Q3-X,MW-8,2023-08-17,Groundwater,,Xylenes,52.7,ug/L,2,,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2023Q3-T,MW-8,2023-08-17,Groundwater,,Trichloroethene,0.688,ug/L,0.5,J,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2023Q3-T,MW-8,2023-08-17,Groundwater,,Tetrachloroethene,0.614,ug/L,0.5,J,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2023Q3-VC,MW-8,2023-08-17,Groundwater,,Vinyl chloride,0.256,ug/L,0.2,J,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2023Q3-A,MW-8,2023-08-17,Groundwater,,Arsenic,<1,ug/L,1,U,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 6010D
+MW-8-2023Q3-NAN,MW-8,2023-08-17,Groundwater,,Nitrate as N,123,ug/L,50,J,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 300.0
+MW-1-2023Q4-B,MW-1,2023-11-15,Groundwater,,Benzene,13.0,ug/L,0.5,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2023Q4-T,MW-1,2023-11-15,Groundwater,,Toluene,182,ug/L,1,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2023Q4-E,MW-1,2023-11-15,Groundwater,,Ethylbenzene,54.0,ug/L,1,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2023Q4-X,MW-1,2023-11-15,Groundwater,,Xylenes,305,ug/L,2,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2023Q4-T,MW-1,2023-11-15,Groundwater,,Trichloroethene,11.7,ug/L,0.5,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2023Q4-T,MW-1,2023-11-15,Groundwater,,Tetrachloroethene,8.26,ug/L,0.5,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2023Q4-VC,MW-1,2023-11-15,Groundwater,,Vinyl chloride,2.11,ug/L,0.2,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2023Q4-A,MW-1,2023-11-15,Groundwater,,Arsenic,8.50,ug/L,1,,35.47821,-97.51566,1171.96,12.26,Source,EPA 6010D
+MW-1-2023Q4-NAN,MW-1,2023-11-15,Groundwater,,Nitrate as N,3685,ug/L,50,,35.47821,-97.51566,1171.96,12.26,Source,EPA 300.0
+MW-2-2023Q4-B,MW-2,2023-11-15,Groundwater,,Benzene,9.44,ug/L,0.5,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2023Q4-T,MW-2,2023-11-15,Groundwater,,Toluene,145,ug/L,1,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2023Q4-E,MW-2,2023-11-15,Groundwater,,Ethylbenzene,36.5,ug/L,1,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2023Q4-X,MW-2,2023-11-15,Groundwater,,Xylenes,261,ug/L,2,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2023Q4-T,MW-2,2023-11-15,Groundwater,,Trichloroethene,8.71,ug/L,0.5,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2023Q4-T,MW-2,2023-11-15,Groundwater,,Tetrachloroethene,5.60,ug/L,0.5,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2023Q4-VC,MW-2,2023-11-15,Groundwater,,Vinyl chloride,1.85,ug/L,0.2,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2023Q4-A,MW-2,2023-11-15,Groundwater,,Arsenic,6.50,ug/L,1,,35.47842,-97.51498,1171.51,12.71,Source,EPA 6010D
+MW-2-2023Q4-NAN,MW-2,2023-11-15,Groundwater,,Nitrate as N,2674,ug/L,50,,35.47842,-97.51498,1171.51,12.71,Source,EPA 300.0
+MW-3-2023Q4-B,MW-3,2023-11-15,Groundwater,,Benzene,6.79,ug/L,0.5,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2023Q4-T,MW-3,2023-11-15,Groundwater,,Toluene,86.5,ug/L,1,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2023Q4-E,MW-3,2023-11-15,Groundwater,,Ethylbenzene,23.8,ug/L,1,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2023Q4-X,MW-3,2023-11-15,Groundwater,,Xylenes,191,ug/L,2,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2023Q4-T,MW-3,2023-11-15,Groundwater,,Trichloroethene,5.63,ug/L,0.5,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2023Q4-T,MW-3,2023-11-15,Groundwater,,Tetrachloroethene,4.55,ug/L,0.5,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2023Q4-VC,MW-3,2023-11-15,Groundwater,,Vinyl chloride,1.21,ug/L,0.2,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2023Q4-A,MW-3,2023-11-15,Groundwater,,Arsenic,3.74,ug/L,1,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 6010D
+MW-3-2023Q4-NAN,MW-3,2023-11-15,Groundwater,,Nitrate as N,1885,ug/L,50,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 300.0
+MW-4-2023Q4-B,MW-4,2023-11-15,Groundwater,,Benzene,3.34,ug/L,0.5,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2023Q4-T,MW-4,2023-11-15,Groundwater,,Toluene,41.6,ug/L,1,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2023Q4-E,MW-4,2023-11-15,Groundwater,,Ethylbenzene,11.9,ug/L,1,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2023Q4-X,MW-4,2023-11-15,Groundwater,,Xylenes,130,ug/L,2,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2023Q4-T,MW-4,2023-11-15,Groundwater,,Trichloroethene,3.74,ug/L,0.5,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2023Q4-T,MW-4,2023-11-15,Groundwater,,Tetrachloroethene,2.87,ug/L,0.5,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2023Q4-VC,MW-4,2023-11-15,Groundwater,,Vinyl chloride,0.591,ug/L,0.2,J,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2023Q4-A,MW-4,2023-11-15,Groundwater,,Arsenic,2.66,ug/L,1,J,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 6010D
+MW-4-2023Q4-NAN,MW-4,2023-11-15,Groundwater,,Nitrate as N,1352,ug/L,50,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 300.0
+MW-5-2023Q4-B,MW-5,2023-11-15,Groundwater,,Benzene,1.81,ug/L,0.5,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2023Q4-T,MW-5,2023-11-15,Groundwater,,Toluene,34.7,ug/L,1,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2023Q4-E,MW-5,2023-11-15,Groundwater,,Ethylbenzene,7.85,ug/L,1,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2023Q4-X,MW-5,2023-11-15,Groundwater,,Xylenes,72.5,ug/L,2,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2023Q4-T,MW-5,2023-11-15,Groundwater,,Trichloroethene,2.00,ug/L,0.5,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2023Q4-T,MW-5,2023-11-15,Groundwater,,Tetrachloroethene,1.71,ug/L,0.5,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2023Q4-VC,MW-5,2023-11-15,Groundwater,,Vinyl chloride,0.445,ug/L,0.2,J,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2023Q4-A,MW-5,2023-11-15,Groundwater,,Arsenic,<1,ug/L,1,U,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 6010D
+MW-5-2023Q4-NAN,MW-5,2023-11-15,Groundwater,,Nitrate as N,429,ug/L,50,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 300.0
+MW-6-2023Q4-B,MW-6,2023-11-15,Groundwater,,Benzene,<0.5,ug/L,0.5,U,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2023Q4-T,MW-6,2023-11-15,Groundwater,,Toluene,23.1,ug/L,1,,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2023Q4-E,MW-6,2023-11-15,Groundwater,,Ethylbenzene,3.26,ug/L,1,,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2023Q4-X,MW-6,2023-11-15,Groundwater,,Xylenes,57.9,ug/L,2,,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2023Q4-T,MW-6,2023-11-15,Groundwater,,Trichloroethene,1.00,ug/L,0.5,J,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2023Q4-T,MW-6,2023-11-15,Groundwater,,Tetrachloroethene,0.778,ug/L,0.5,J,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2023Q4-VC,MW-6,2023-11-15,Groundwater,,Vinyl chloride,<0.2,ug/L,0.2,U,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2023Q4-A,MW-6,2023-11-15,Groundwater,,Arsenic,<1,ug/L,1,U,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 6010D
+MW-6-2023Q4-NAN,MW-6,2023-11-15,Groundwater,,Nitrate as N,218,ug/L,50,,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 300.0
+MW-7-2023Q4-B,MW-7,2023-11-15,Groundwater,,Benzene,0.816,ug/L,0.5,J,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2023Q4-T,MW-7,2023-11-15,Groundwater,,Toluene,16.0,ug/L,1,,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2023Q4-E,MW-7,2023-11-15,Groundwater,,Ethylbenzene,5.15,ug/L,1,,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2023Q4-X,MW-7,2023-11-15,Groundwater,,Xylenes,46.4,ug/L,2,,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2023Q4-T,MW-7,2023-11-15,Groundwater,,Trichloroethene,0.573,ug/L,0.5,J,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2023Q4-T,MW-7,2023-11-15,Groundwater,,Tetrachloroethene,1.35,ug/L,0.5,J,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2023Q4-VC,MW-7,2023-11-15,Groundwater,,Vinyl chloride,<0.2,ug/L,0.2,U,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2023Q4-A,MW-7,2023-11-15,Groundwater,,Arsenic,<1,ug/L,1,U,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 6010D
+MW-7-2023Q4-NAN,MW-7,2023-11-15,Groundwater,,Nitrate as N,439,ug/L,50,,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 300.0
+MW-8-2023Q4-B,MW-8,2023-11-15,Groundwater,,Benzene,1.21,ug/L,0.5,J,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2023Q4-T,MW-8,2023-11-15,Groundwater,,Toluene,6.70,ug/L,1,,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2023Q4-E,MW-8,2023-11-15,Groundwater,,Ethylbenzene,<1,ug/L,1,U,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2023Q4-X,MW-8,2023-11-15,Groundwater,,Xylenes,24.7,ug/L,2,,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2023Q4-T,MW-8,2023-11-15,Groundwater,,Trichloroethene,1.32,ug/L,0.5,J,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2023Q4-T,MW-8,2023-11-15,Groundwater,,Tetrachloroethene,<0.5,ug/L,0.5,U,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2023Q4-VC,MW-8,2023-11-15,Groundwater,,Vinyl chloride,<0.2,ug/L,0.2,U,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2023Q4-A,MW-8,2023-11-15,Groundwater,,Arsenic,<1,ug/L,1,U,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 6010D
+MW-8-2023Q4-NAN,MW-8,2023-11-15,Groundwater,,Nitrate as N,<50,ug/L,50,U,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 300.0
+MW-1-2024Q1-B,MW-1,2024-02-14,Groundwater,,Benzene,13.7,ug/L,0.5,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2024Q1-T,MW-1,2024-02-14,Groundwater,,Toluene,180,ug/L,1,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2024Q1-E,MW-1,2024-02-14,Groundwater,,Ethylbenzene,52.2,ug/L,1,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2024Q1-X,MW-1,2024-02-14,Groundwater,,Xylenes,325,ug/L,2,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2024Q1-T,MW-1,2024-02-14,Groundwater,,Trichloroethene,15.0,ug/L,0.5,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2024Q1-T,MW-1,2024-02-14,Groundwater,,Tetrachloroethene,8.81,ug/L,0.5,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2024Q1-VC,MW-1,2024-02-14,Groundwater,,Vinyl chloride,2.89,ug/L,0.2,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2024Q1-A,MW-1,2024-02-14,Groundwater,,Arsenic,9.37,ug/L,1,,35.47821,-97.51566,1171.49,12.73,Source,EPA 6010D
+MW-1-2024Q1-NAN,MW-1,2024-02-14,Groundwater,,Nitrate as N,4585,ug/L,50,,35.47821,-97.51566,1171.49,12.73,Source,EPA 300.0
+MW-2-2024Q1-B,MW-2,2024-02-14,Groundwater,,Benzene,10.9,ug/L,0.5,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2024Q1-T,MW-2,2024-02-14,Groundwater,,Toluene,138,ug/L,1,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2024Q1-E,MW-2,2024-02-14,Groundwater,,Ethylbenzene,39.9,ug/L,1,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2024Q1-X,MW-2,2024-02-14,Groundwater,,Xylenes,300,ug/L,2,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2024Q1-T,MW-2,2024-02-14,Groundwater,,Trichloroethene,11.3,ug/L,0.5,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2024Q1-T,MW-2,2024-02-14,Groundwater,,Tetrachloroethene,6.51,ug/L,0.5,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2024Q1-VC,MW-2,2024-02-14,Groundwater,,Vinyl chloride,2.22,ug/L,0.2,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2024Q1-A,MW-2,2024-02-14,Groundwater,,Arsenic,7.83,ug/L,1,,35.47842,-97.51498,1171.04,13.18,Source,EPA 6010D
+MW-2-2024Q1-NAN,MW-2,2024-02-14,Groundwater,,Nitrate as N,3301,ug/L,50,,35.47842,-97.51498,1171.04,13.18,Source,EPA 300.0
+MW-3-2024Q1-B,MW-3,2024-02-14,Groundwater,,Benzene,8.42,ug/L,0.5,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2024Q1-T,MW-3,2024-02-14,Groundwater,,Toluene,86.8,ug/L,1,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2024Q1-E,MW-3,2024-02-14,Groundwater,,Ethylbenzene,25.8,ug/L,1,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2024Q1-X,MW-3,2024-02-14,Groundwater,,Xylenes,157,ug/L,2,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2024Q1-T,MW-3,2024-02-14,Groundwater,,Trichloroethene,6.52,ug/L,0.5,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2024Q1-T,MW-3,2024-02-14,Groundwater,,Tetrachloroethene,4.39,ug/L,0.5,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2024Q1-VC,MW-3,2024-02-14,Groundwater,,Vinyl chloride,1.53,ug/L,0.2,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2024Q1-A,MW-3,2024-02-14,Groundwater,,Arsenic,5.25,ug/L,1,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 6010D
+MW-3-2024Q1-NAN,MW-3,2024-02-14,Groundwater,,Nitrate as N,2081,ug/L,50,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 300.0
+MW-4-2024Q1-B,MW-4,2024-02-14,Groundwater,,Benzene,4.89,ug/L,0.5,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2024Q1-T,MW-4,2024-02-14,Groundwater,,Toluene,65.7,ug/L,1,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2024Q1-E,MW-4,2024-02-14,Groundwater,,Ethylbenzene,14.8,ug/L,1,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2024Q1-X,MW-4,2024-02-14,Groundwater,,Xylenes,114,ug/L,2,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2024Q1-T,MW-4,2024-02-14,Groundwater,,Trichloroethene,4.02,ug/L,0.5,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2024Q1-T,MW-4,2024-02-14,Groundwater,,Tetrachloroethene,3.30,ug/L,0.5,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2024Q1-VC,MW-4,2024-02-14,Groundwater,,Vinyl chloride,0.794,ug/L,0.2,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2024Q1-A,MW-4,2024-02-14,Groundwater,,Arsenic,3.22,ug/L,1,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 6010D
+MW-4-2024Q1-NAN,MW-4,2024-02-14,Groundwater,,Nitrate as N,1630,ug/L,50,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 300.0
+MW-5-2024Q1-B,MW-5,2024-02-14,Groundwater,,Benzene,1.33,ug/L,0.5,J,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2024Q1-T,MW-5,2024-02-14,Groundwater,,Toluene,40.7,ug/L,1,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2024Q1-E,MW-5,2024-02-14,Groundwater,,Ethylbenzene,6.01,ug/L,1,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2024Q1-X,MW-5,2024-02-14,Groundwater,,Xylenes,82.8,ug/L,2,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2024Q1-T,MW-5,2024-02-14,Groundwater,,Trichloroethene,2.05,ug/L,0.5,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2024Q1-T,MW-5,2024-02-14,Groundwater,,Tetrachloroethene,1.42,ug/L,0.5,J,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2024Q1-VC,MW-5,2024-02-14,Groundwater,,Vinyl chloride,0.393,ug/L,0.2,J,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2024Q1-A,MW-5,2024-02-14,Groundwater,,Arsenic,1.96,ug/L,1,J,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 6010D
+MW-5-2024Q1-NAN,MW-5,2024-02-14,Groundwater,,Nitrate as N,971,ug/L,50,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 300.0
+MW-6-2024Q1-B,MW-6,2024-02-14,Groundwater,,Benzene,1.28,ug/L,0.5,J,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2024Q1-T,MW-6,2024-02-14,Groundwater,,Toluene,22.6,ug/L,1,,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2024Q1-E,MW-6,2024-02-14,Groundwater,,Ethylbenzene,5.55,ug/L,1,,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2024Q1-X,MW-6,2024-02-14,Groundwater,,Xylenes,<2,ug/L,2,U,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2024Q1-T,MW-6,2024-02-14,Groundwater,,Trichloroethene,0.756,ug/L,0.5,J,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2024Q1-T,MW-6,2024-02-14,Groundwater,,Tetrachloroethene,1.16,ug/L,0.5,J,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2024Q1-VC,MW-6,2024-02-14,Groundwater,,Vinyl chloride,0.262,ug/L,0.2,J,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2024Q1-A,MW-6,2024-02-14,Groundwater,,Arsenic,1.35,ug/L,1,J,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 6010D
+MW-6-2024Q1-NAN,MW-6,2024-02-14,Groundwater,,Nitrate as N,261,ug/L,50,,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 300.0
+MW-7-2024Q1-B,MW-7,2024-02-14,Groundwater,,Benzene,0.702,ug/L,0.5,J,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2024Q1-T,MW-7,2024-02-14,Groundwater,,Toluene,7.20,ug/L,1,,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2024Q1-E,MW-7,2024-02-14,Groundwater,,Ethylbenzene,6.92,ug/L,1,,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2024Q1-X,MW-7,2024-02-14,Groundwater,,Xylenes,34.0,ug/L,2,,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2024Q1-T,MW-7,2024-02-14,Groundwater,,Trichloroethene,1.40,ug/L,0.5,J,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2024Q1-T,MW-7,2024-02-14,Groundwater,,Tetrachloroethene,1.59,ug/L,0.5,,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2024Q1-VC,MW-7,2024-02-14,Groundwater,,Vinyl chloride,0.259,ug/L,0.2,J,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2024Q1-A,MW-7,2024-02-14,Groundwater,,Arsenic,1.28,ug/L,1,J,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 6010D
+MW-7-2024Q1-NAN,MW-7,2024-02-14,Groundwater,,Nitrate as N,378,ug/L,50,,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 300.0
+MW-8-2024Q1-B,MW-8,2024-02-14,Groundwater,,Benzene,0.994,ug/L,0.5,J,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2024Q1-T,MW-8,2024-02-14,Groundwater,,Toluene,<1,ug/L,1,U,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2024Q1-E,MW-8,2024-02-14,Groundwater,,Ethylbenzene,<1,ug/L,1,U,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2024Q1-X,MW-8,2024-02-14,Groundwater,,Xylenes,26.4,ug/L,2,,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2024Q1-T,MW-8,2024-02-14,Groundwater,,Trichloroethene,0.547,ug/L,0.5,J,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2024Q1-T,MW-8,2024-02-14,Groundwater,,Tetrachloroethene,1.06,ug/L,0.5,J,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2024Q1-VC,MW-8,2024-02-14,Groundwater,,Vinyl chloride,<0.2,ug/L,0.2,U,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2024Q1-A,MW-8,2024-02-14,Groundwater,,Arsenic,<1,ug/L,1,U,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 6010D
+MW-8-2024Q1-NAN,MW-8,2024-02-14,Groundwater,,Nitrate as N,391,ug/L,50,,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 300.0
+MW-1-2024Q2-B,MW-1,2024-05-16,Groundwater,,Benzene,14.9,ug/L,0.5,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2024Q2-T,MW-1,2024-05-16,Groundwater,,Toluene,173,ug/L,1,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2024Q2-E,MW-1,2024-05-16,Groundwater,,Ethylbenzene,54.7,ug/L,1,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2024Q2-X,MW-1,2024-05-16,Groundwater,,Xylenes,326,ug/L,2,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2024Q2-T,MW-1,2024-05-16,Groundwater,,Trichloroethene,15.1,ug/L,0.5,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2024Q2-T,MW-1,2024-05-16,Groundwater,,Tetrachloroethene,9.62,ug/L,0.5,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2024Q2-VC,MW-1,2024-05-16,Groundwater,,Vinyl chloride,3.09,ug/L,0.2,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2024Q2-A,MW-1,2024-05-16,Groundwater,,Arsenic,11.0,ug/L,1,,35.47821,-97.51566,1171.13,13.09,Source,EPA 6010D
+MW-1-2024Q2-NAN,MW-1,2024-05-16,Groundwater,,Nitrate as N,4764,ug/L,50,,35.47821,-97.51566,1171.13,13.09,Source,EPA 300.0
+MW-2-2024Q2-B,MW-2,2024-05-16,Groundwater,,Benzene,10.9,ug/L,0.5,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2024Q2-T,MW-2,2024-05-16,Groundwater,,Toluene,107,ug/L,1,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2024Q2-E,MW-2,2024-05-16,Groundwater,,Ethylbenzene,37.3,ug/L,1,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2024Q2-X,MW-2,2024-05-16,Groundwater,,Xylenes,295,ug/L,2,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2024Q2-T,MW-2,2024-05-16,Groundwater,,Trichloroethene,11.1,ug/L,0.5,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2024Q2-T,MW-2,2024-05-16,Groundwater,,Tetrachloroethene,7.55,ug/L,0.5,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2024Q2-VC,MW-2,2024-05-16,Groundwater,,Vinyl chloride,2.27,ug/L,0.2,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2024Q2-A,MW-2,2024-05-16,Groundwater,,Arsenic,8.42,ug/L,1,,35.47842,-97.51498,1170.68,13.54,Source,EPA 6010D
+MW-2-2024Q2-NAN,MW-2,2024-05-16,Groundwater,,Nitrate as N,3786,ug/L,50,,35.47842,-97.51498,1170.68,13.54,Source,EPA 300.0
+MW-3-2024Q2-B,MW-3,2024-05-16,Groundwater,,Benzene,7.71,ug/L,0.5,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2024Q2-T,MW-3,2024-05-16,Groundwater,,Toluene,66.3,ug/L,1,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2024Q2-E,MW-3,2024-05-16,Groundwater,,Ethylbenzene,27.8,ug/L,1,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2024Q2-X,MW-3,2024-05-16,Groundwater,,Xylenes,200,ug/L,2,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2024Q2-T,MW-3,2024-05-16,Groundwater,,Trichloroethene,7.53,ug/L,0.5,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2024Q2-T,MW-3,2024-05-16,Groundwater,,Tetrachloroethene,4.92,ug/L,0.5,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2024Q2-VC,MW-3,2024-05-16,Groundwater,,Vinyl chloride,1.62,ug/L,0.2,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2024Q2-A,MW-3,2024-05-16,Groundwater,,Arsenic,5.98,ug/L,1,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 6010D
+MW-3-2024Q2-NAN,MW-3,2024-05-16,Groundwater,,Nitrate as N,2758,ug/L,50,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 300.0
+MW-4-2024Q2-B,MW-4,2024-05-16,Groundwater,,Benzene,5.83,ug/L,0.5,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2024Q2-T,MW-4,2024-05-16,Groundwater,,Toluene,54.6,ug/L,1,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2024Q2-E,MW-4,2024-05-16,Groundwater,,Ethylbenzene,20.3,ug/L,1,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2024Q2-X,MW-4,2024-05-16,Groundwater,,Xylenes,131,ug/L,2,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2024Q2-T,MW-4,2024-05-16,Groundwater,,Trichloroethene,4.35,ug/L,0.5,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2024Q2-T,MW-4,2024-05-16,Groundwater,,Tetrachloroethene,2.83,ug/L,0.5,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2024Q2-VC,MW-4,2024-05-16,Groundwater,,Vinyl chloride,1.10,ug/L,0.2,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2024Q2-A,MW-4,2024-05-16,Groundwater,,Arsenic,3.17,ug/L,1,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 6010D
+MW-4-2024Q2-NAN,MW-4,2024-05-16,Groundwater,,Nitrate as N,1701,ug/L,50,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 300.0
+MW-5-2024Q2-B,MW-5,2024-05-16,Groundwater,,Benzene,1.50,ug/L,0.5,J,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2024Q2-T,MW-5,2024-05-16,Groundwater,,Toluene,36.1,ug/L,1,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2024Q2-E,MW-5,2024-05-16,Groundwater,,Ethylbenzene,13.2,ug/L,1,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2024Q2-X,MW-5,2024-05-16,Groundwater,,Xylenes,34.5,ug/L,2,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2024Q2-T,MW-5,2024-05-16,Groundwater,,Trichloroethene,2.13,ug/L,0.5,R,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2024Q2-T,MW-5,2024-05-16,Groundwater,,Tetrachloroethene,1.98,ug/L,0.5,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2024Q2-VC,MW-5,2024-05-16,Groundwater,,Vinyl chloride,0.408,ug/L,0.2,J,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2024Q2-A,MW-5,2024-05-16,Groundwater,,Arsenic,1.49,ug/L,1,J,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 6010D
+MW-5-2024Q2-NAN,MW-5,2024-05-16,Groundwater,,Nitrate as N,542,ug/L,50,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 300.0
+MW-6-2024Q2-B,MW-6,2024-05-16,Groundwater,,Benzene,2.18,ug/L,0.5,,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2024Q2-T,MW-6,2024-05-16,Groundwater,,Toluene,<1,ug/L,1,U,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2024Q2-E,MW-6,2024-05-16,Groundwater,,Ethylbenzene,3.67,ug/L,1,,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2024Q2-X,MW-6,2024-05-16,Groundwater,,Xylenes,5.33,ug/L,2,J,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2024Q2-T,MW-6,2024-05-16,Groundwater,,Trichloroethene,0.721,ug/L,0.5,J,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2024Q2-T,MW-6,2024-05-16,Groundwater,,Tetrachloroethene,1.03,ug/L,0.5,J,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2024Q2-VC,MW-6,2024-05-16,Groundwater,,Vinyl chloride,0.273,ug/L,0.2,J,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2024Q2-A,MW-6,2024-05-16,Groundwater,,Arsenic,<1,ug/L,1,U,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 6010D
+MW-6-2024Q2-NAN,MW-6,2024-05-16,Groundwater,,Nitrate as N,601,ug/L,50,,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 300.0
+MW-7-2024Q2-B,MW-7,2024-05-16,Groundwater,,Benzene,2.22,ug/L,0.5,,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2024Q2-T,MW-7,2024-05-16,Groundwater,,Toluene,9.65,ug/L,1,,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2024Q2-E,MW-7,2024-05-16,Groundwater,,Ethylbenzene,5.65,ug/L,1,,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2024Q2-X,MW-7,2024-05-16,Groundwater,,Xylenes,53.2,ug/L,2,,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2024Q2-T,MW-7,2024-05-16,Groundwater,,Trichloroethene,1.16,ug/L,0.5,J,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2024Q2-T,MW-7,2024-05-16,Groundwater,,Tetrachloroethene,0.693,ug/L,0.5,J,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2024Q2-VC,MW-7,2024-05-16,Groundwater,,Vinyl chloride,0.244,ug/L,0.2,J,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2024Q2-A,MW-7,2024-05-16,Groundwater,,Arsenic,1.38,ug/L,1,J,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 6010D
+MW-7-2024Q2-NAN,MW-7,2024-05-16,Groundwater,,Nitrate as N,827,ug/L,50,,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 300.0
+MW-8-2024Q2-B,MW-8,2024-05-16,Groundwater,,Benzene,0.568,ug/L,0.5,J,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2024Q2-T,MW-8,2024-05-16,Groundwater,,Toluene,9.24,ug/L,1,R,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2024Q2-E,MW-8,2024-05-16,Groundwater,,Ethylbenzene,5.04,ug/L,1,,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2024Q2-X,MW-8,2024-05-16,Groundwater,,Xylenes,43.1,ug/L,2,,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2024Q2-T,MW-8,2024-05-16,Groundwater,,Trichloroethene,1.05,ug/L,0.5,J,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2024Q2-T,MW-8,2024-05-16,Groundwater,,Tetrachloroethene,1.09,ug/L,0.5,J,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2024Q2-VC,MW-8,2024-05-16,Groundwater,,Vinyl chloride,<0.2,ug/L,0.2,U,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2024Q2-A,MW-8,2024-05-16,Groundwater,,Arsenic,<1,ug/L,1,U,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 6010D
+MW-8-2024Q2-NAN,MW-8,2024-05-16,Groundwater,,Nitrate as N,237,ug/L,50,,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 300.0
+MW-1-2024Q3-B,MW-1,2024-08-15,Groundwater,,Benzene,12.3,ug/L,0.5,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2024Q3-T,MW-1,2024-08-15,Groundwater,,Toluene,126,ug/L,1,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2024Q3-E,MW-1,2024-08-15,Groundwater,,Ethylbenzene,45.2,ug/L,1,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2024Q3-X,MW-1,2024-08-15,Groundwater,,Xylenes,311,ug/L,2,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2024Q3-T,MW-1,2024-08-15,Groundwater,,Trichloroethene,13.6,ug/L,0.5,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2024Q3-T,MW-1,2024-08-15,Groundwater,,Tetrachloroethene,8.22,ug/L,0.5,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2024Q3-VC,MW-1,2024-08-15,Groundwater,,Vinyl chloride,3.09,ug/L,0.2,B,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2024Q3-A,MW-1,2024-08-15,Groundwater,,Arsenic,9.01,ug/L,1,,35.47821,-97.51566,1171.60,12.62,Source,EPA 6010D
+MW-1-2024Q3-NAN,MW-1,2024-08-15,Groundwater,,Nitrate as N,4668,ug/L,50,,35.47821,-97.51566,1171.60,12.62,Source,EPA 300.0
+MW-2-2024Q3-B,MW-2,2024-08-15,Groundwater,,Benzene,9.58,ug/L,0.5,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2024Q3-T,MW-2,2024-08-15,Groundwater,,Toluene,87.4,ug/L,1,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2024Q3-E,MW-2,2024-08-15,Groundwater,,Ethylbenzene,27.4,ug/L,1,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2024Q3-X,MW-2,2024-08-15,Groundwater,,Xylenes,244,ug/L,2,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2024Q3-T,MW-2,2024-08-15,Groundwater,,Trichloroethene,10.5,ug/L,0.5,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2024Q3-T,MW-2,2024-08-15,Groundwater,,Tetrachloroethene,6.63,ug/L,0.5,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2024Q3-VC,MW-2,2024-08-15,Groundwater,,Vinyl chloride,2.20,ug/L,0.2,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2024Q3-A,MW-2,2024-08-15,Groundwater,,Arsenic,7.41,ug/L,1,,35.47842,-97.51498,1171.15,13.07,Source,EPA 6010D
+MW-2-2024Q3-NAN,MW-2,2024-08-15,Groundwater,,Nitrate as N,3299,ug/L,50,,35.47842,-97.51498,1171.15,13.07,Source,EPA 300.0
+MW-3-2024Q3-B,MW-3,2024-08-15,Groundwater,,Benzene,6.51,ug/L,0.5,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2024Q3-T,MW-3,2024-08-15,Groundwater,,Toluene,62.7,ug/L,1,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2024Q3-E,MW-3,2024-08-15,Groundwater,,Ethylbenzene,26.0,ug/L,1,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2024Q3-X,MW-3,2024-08-15,Groundwater,,Xylenes,186,ug/L,2,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2024Q3-T,MW-3,2024-08-15,Groundwater,,Trichloroethene,7.89,ug/L,0.5,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2024Q3-T,MW-3,2024-08-15,Groundwater,,Tetrachloroethene,4.96,ug/L,0.5,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2024Q3-VC,MW-3,2024-08-15,Groundwater,,Vinyl chloride,1.65,ug/L,0.2,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2024Q3-A,MW-3,2024-08-15,Groundwater,,Arsenic,5.01,ug/L,1,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 6010D
+MW-3-2024Q3-NAN,MW-3,2024-08-15,Groundwater,,Nitrate as N,2588,ug/L,50,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 300.0
+MW-4-2024Q3-B,MW-4,2024-08-15,Groundwater,,Benzene,5.14,ug/L,0.5,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2024Q3-T,MW-4,2024-08-15,Groundwater,,Toluene,48.1,ug/L,1,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2024Q3-E,MW-4,2024-08-15,Groundwater,,Ethylbenzene,8.91,ug/L,1,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2024Q3-X,MW-4,2024-08-15,Groundwater,,Xylenes,80.5,ug/L,2,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2024Q3-T,MW-4,2024-08-15,Groundwater,,Trichloroethene,5.00,ug/L,0.5,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2024Q3-T,MW-4,2024-08-15,Groundwater,,Tetrachloroethene,3.03,ug/L,0.5,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2024Q3-VC,MW-4,2024-08-15,Groundwater,,Vinyl chloride,0.975,ug/L,0.2,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2024Q3-A,MW-4,2024-08-15,Groundwater,,Arsenic,2.41,ug/L,1,J,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 6010D
+MW-4-2024Q3-NAN,MW-4,2024-08-15,Groundwater,,Nitrate as N,1446,ug/L,50,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 300.0
+MW-5-2024Q3-B,MW-5,2024-08-15,Groundwater,,Benzene,1.31,ug/L,0.5,J,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2024Q3-T,MW-5,2024-08-15,Groundwater,,Toluene,17.1,ug/L,1,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2024Q3-E,MW-5,2024-08-15,Groundwater,,Ethylbenzene,9.53,ug/L,1,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2024Q3-X,MW-5,2024-08-15,Groundwater,,Xylenes,56.2,ug/L,2,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2024Q3-T,MW-5,2024-08-15,Groundwater,,Trichloroethene,2.14,ug/L,0.5,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2024Q3-T,MW-5,2024-08-15,Groundwater,,Tetrachloroethene,1.60,ug/L,0.5,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2024Q3-VC,MW-5,2024-08-15,Groundwater,,Vinyl chloride,0.638,ug/L,0.2,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2024Q3-A,MW-5,2024-08-15,Groundwater,,Arsenic,1.44,ug/L,1,J,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 6010D
+MW-5-2024Q3-NAN,MW-5,2024-08-15,Groundwater,,Nitrate as N,947,ug/L,50,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 300.0
+MW-6-2024Q3-B,MW-6,2024-08-15,Groundwater,,Benzene,1.39,ug/L,0.5,J,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2024Q3-T,MW-6,2024-08-15,Groundwater,,Toluene,1.81,ug/L,1,J,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2024Q3-E,MW-6,2024-08-15,Groundwater,,Ethylbenzene,1.26,ug/L,1,J,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2024Q3-X,MW-6,2024-08-15,Groundwater,,Xylenes,44.1,ug/L,2,,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2024Q3-T,MW-6,2024-08-15,Groundwater,,Trichloroethene,<0.5,ug/L,0.5,U,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2024Q3-T,MW-6,2024-08-15,Groundwater,,Tetrachloroethene,<0.5,ug/L,0.5,U,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2024Q3-VC,MW-6,2024-08-15,Groundwater,,Vinyl chloride,<0.2,ug/L,0.2,U,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2024Q3-A,MW-6,2024-08-15,Groundwater,,Arsenic,<1,ug/L,1,U,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 6010D
+MW-6-2024Q3-NAN,MW-6,2024-08-15,Groundwater,,Nitrate as N,163,ug/L,50,,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 300.0
+MW-7-2024Q3-B,MW-7,2024-08-15,Groundwater,,Benzene,0.800,ug/L,0.5,J,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2024Q3-T,MW-7,2024-08-15,Groundwater,,Toluene,29.9,ug/L,1,,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2024Q3-E,MW-7,2024-08-15,Groundwater,,Ethylbenzene,1.05,ug/L,1,J,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2024Q3-X,MW-7,2024-08-15,Groundwater,,Xylenes,28.5,ug/L,2,,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2024Q3-T,MW-7,2024-08-15,Groundwater,,Trichloroethene,2.39,ug/L,0.5,,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2024Q3-T,MW-7,2024-08-15,Groundwater,,Tetrachloroethene,0.647,ug/L,0.5,J,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2024Q3-VC,MW-7,2024-08-15,Groundwater,,Vinyl chloride,0.316,ug/L,0.2,J,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2024Q3-A,MW-7,2024-08-15,Groundwater,,Arsenic,1.37,ug/L,1,J,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 6010D
+MW-7-2024Q3-NAN,MW-7,2024-08-15,Groundwater,,Nitrate as N,301,ug/L,50,,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 300.0
+MW-8-2024Q3-B,MW-8,2024-08-15,Groundwater,,Benzene,1.27,ug/L,0.5,J,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2024Q3-T,MW-8,2024-08-15,Groundwater,,Toluene,<1,ug/L,1,U,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2024Q3-E,MW-8,2024-08-15,Groundwater,,Ethylbenzene,6.46,ug/L,1,R,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2024Q3-X,MW-8,2024-08-15,Groundwater,,Xylenes,7.76,ug/L,2,,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2024Q3-T,MW-8,2024-08-15,Groundwater,,Trichloroethene,<0.5,ug/L,0.5,U,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2024Q3-T,MW-8,2024-08-15,Groundwater,,Tetrachloroethene,<0.5,ug/L,0.5,U,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2024Q3-VC,MW-8,2024-08-15,Groundwater,,Vinyl chloride,<0.2,ug/L,0.2,U,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2024Q3-A,MW-8,2024-08-15,Groundwater,,Arsenic,<1,ug/L,1,U,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 6010D
+MW-8-2024Q3-NAN,MW-8,2024-08-15,Groundwater,,Nitrate as N,526,ug/L,50,,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 300.0
+MW-1-2024Q4-B,MW-1,2024-11-13,Groundwater,,Benzene,11.6,ug/L,0.5,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2024Q4-T,MW-1,2024-11-13,Groundwater,,Toluene,101,ug/L,1,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2024Q4-E,MW-1,2024-11-13,Groundwater,,Ethylbenzene,41.1,ug/L,1,B,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2024Q4-X,MW-1,2024-11-13,Groundwater,,Xylenes,260,ug/L,2,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2024Q4-T,MW-1,2024-11-13,Groundwater,,Trichloroethene,14.3,ug/L,0.5,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2024Q4-T,MW-1,2024-11-13,Groundwater,,Tetrachloroethene,8.42,ug/L,0.5,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2024Q4-VC,MW-1,2024-11-13,Groundwater,,Vinyl chloride,3.17,ug/L,0.2,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2024Q4-A,MW-1,2024-11-13,Groundwater,,Arsenic,8.92,ug/L,1,,35.47821,-97.51566,1171.96,12.26,Source,EPA 6010D
+MW-1-2024Q4-NAN,MW-1,2024-11-13,Groundwater,,Nitrate as N,4446,ug/L,50,,35.47821,-97.51566,1171.96,12.26,Source,EPA 300.0
+MW-2-2024Q4-B,MW-2,2024-11-13,Groundwater,,Benzene,8.32,ug/L,0.5,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2024Q4-T,MW-2,2024-11-13,Groundwater,,Toluene,99.0,ug/L,1,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2024Q4-E,MW-2,2024-11-13,Groundwater,,Ethylbenzene,25.4,ug/L,1,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2024Q4-X,MW-2,2024-11-13,Groundwater,,Xylenes,194,ug/L,2,R,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2024Q4-T,MW-2,2024-11-13,Groundwater,,Trichloroethene,10.8,ug/L,0.5,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2024Q4-T,MW-2,2024-11-13,Groundwater,,Tetrachloroethene,6.61,ug/L,0.5,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2024Q4-VC,MW-2,2024-11-13,Groundwater,,Vinyl chloride,2.51,ug/L,0.2,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2024Q4-A,MW-2,2024-11-13,Groundwater,,Arsenic,6.84,ug/L,1,,35.47842,-97.51498,1171.51,12.71,Source,EPA 6010D
+MW-2-2024Q4-NAN,MW-2,2024-11-13,Groundwater,,Nitrate as N,3449,ug/L,50,,35.47842,-97.51498,1171.51,12.71,Source,EPA 300.0
+MW-3-2024Q4-B,MW-3,2024-11-13,Groundwater,,Benzene,5.89,ug/L,0.5,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2024Q4-T,MW-3,2024-11-13,Groundwater,,Toluene,60.0,ug/L,1,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2024Q4-E,MW-3,2024-11-13,Groundwater,,Ethylbenzene,20.4,ug/L,1,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2024Q4-X,MW-3,2024-11-13,Groundwater,,Xylenes,116,ug/L,2,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2024Q4-T,MW-3,2024-11-13,Groundwater,,Trichloroethene,7.77,ug/L,0.5,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2024Q4-T,MW-3,2024-11-13,Groundwater,,Tetrachloroethene,4.06,ug/L,0.5,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2024Q4-VC,MW-3,2024-11-13,Groundwater,,Vinyl chloride,1.67,ug/L,0.2,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2024Q4-A,MW-3,2024-11-13,Groundwater,,Arsenic,4.88,ug/L,1,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 6010D
+MW-3-2024Q4-NAN,MW-3,2024-11-13,Groundwater,,Nitrate as N,1952,ug/L,50,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 300.0
+MW-4-2024Q4-B,MW-4,2024-11-13,Groundwater,,Benzene,3.20,ug/L,0.5,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2024Q4-T,MW-4,2024-11-13,Groundwater,,Toluene,37.5,ug/L,1,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2024Q4-E,MW-4,2024-11-13,Groundwater,,Ethylbenzene,9.51,ug/L,1,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2024Q4-X,MW-4,2024-11-13,Groundwater,,Xylenes,74.0,ug/L,2,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2024Q4-T,MW-4,2024-11-13,Groundwater,,Trichloroethene,4.20,ug/L,0.5,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2024Q4-T,MW-4,2024-11-13,Groundwater,,Tetrachloroethene,2.52,ug/L,0.5,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2024Q4-VC,MW-4,2024-11-13,Groundwater,,Vinyl chloride,0.870,ug/L,0.2,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2024Q4-A,MW-4,2024-11-13,Groundwater,,Arsenic,2.77,ug/L,1,J,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 6010D
+MW-4-2024Q4-NAN,MW-4,2024-11-13,Groundwater,,Nitrate as N,1306,ug/L,50,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 300.0
+MW-5-2024Q4-B,MW-5,2024-11-13,Groundwater,,Benzene,2.22,ug/L,0.5,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2024Q4-T,MW-5,2024-11-13,Groundwater,,Toluene,5.06,ug/L,1,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2024Q4-E,MW-5,2024-11-13,Groundwater,,Ethylbenzene,2.60,ug/L,1,J,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2024Q4-X,MW-5,2024-11-13,Groundwater,,Xylenes,32.2,ug/L,2,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2024Q4-T,MW-5,2024-11-13,Groundwater,,Trichloroethene,2.95,ug/L,0.5,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2024Q4-T,MW-5,2024-11-13,Groundwater,,Tetrachloroethene,1.54,ug/L,0.5,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2024Q4-VC,MW-5,2024-11-13,Groundwater,,Vinyl chloride,0.533,ug/L,0.2,J,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2024Q4-A,MW-5,2024-11-13,Groundwater,,Arsenic,1.05,ug/L,1,J,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 6010D
+MW-5-2024Q4-NAN,MW-5,2024-11-13,Groundwater,,Nitrate as N,822,ug/L,50,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 300.0
+MW-6-2024Q4-B,MW-6,2024-11-13,Groundwater,,Benzene,<0.5,ug/L,0.5,U,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2024Q4-T,MW-6,2024-11-13,Groundwater,,Toluene,21.7,ug/L,1,,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2024Q4-E,MW-6,2024-11-13,Groundwater,,Ethylbenzene,<1,ug/L,1,U,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2024Q4-X,MW-6,2024-11-13,Groundwater,,Xylenes,<2,ug/L,2,U,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2024Q4-T,MW-6,2024-11-13,Groundwater,,Trichloroethene,<0.5,ug/L,0.5,U,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2024Q4-T,MW-6,2024-11-13,Groundwater,,Tetrachloroethene,1.23,ug/L,0.5,J,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2024Q4-VC,MW-6,2024-11-13,Groundwater,,Vinyl chloride,0.349,ug/L,0.2,J,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2024Q4-A,MW-6,2024-11-13,Groundwater,,Arsenic,<1,ug/L,1,U,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 6010D
+MW-6-2024Q4-NAN,MW-6,2024-11-13,Groundwater,,Nitrate as N,311,ug/L,50,,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 300.0
+MW-7-2024Q4-B,MW-7,2024-11-13,Groundwater,,Benzene,1.71,ug/L,0.5,R,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2024Q4-T,MW-7,2024-11-13,Groundwater,,Toluene,<1,ug/L,1,U,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2024Q4-E,MW-7,2024-11-13,Groundwater,,Ethylbenzene,7.92,ug/L,1,,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2024Q4-X,MW-7,2024-11-13,Groundwater,,Xylenes,45.0,ug/L,2,,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2024Q4-T,MW-7,2024-11-13,Groundwater,,Trichloroethene,0.827,ug/L,0.5,J,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2024Q4-T,MW-7,2024-11-13,Groundwater,,Tetrachloroethene,1.19,ug/L,0.5,J,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2024Q4-VC,MW-7,2024-11-13,Groundwater,,Vinyl chloride,0.483,ug/L,0.2,J,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2024Q4-A,MW-7,2024-11-13,Groundwater,,Arsenic,1.18,ug/L,1,J,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 6010D
+MW-7-2024Q4-NAN,MW-7,2024-11-13,Groundwater,,Nitrate as N,218,ug/L,50,,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 300.0
+MW-8-2024Q4-B,MW-8,2024-11-13,Groundwater,,Benzene,0.736,ug/L,0.5,J,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2024Q4-T,MW-8,2024-11-13,Groundwater,,Toluene,6.01,ug/L,1,,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2024Q4-E,MW-8,2024-11-13,Groundwater,,Ethylbenzene,3.83,ug/L,1,,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2024Q4-X,MW-8,2024-11-13,Groundwater,,Xylenes,<2,ug/L,2,U,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2024Q4-T,MW-8,2024-11-13,Groundwater,,Trichloroethene,0.575,ug/L,0.5,J,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2024Q4-T,MW-8,2024-11-13,Groundwater,,Tetrachloroethene,<0.5,ug/L,0.5,U,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2024Q4-VC,MW-8,2024-11-13,Groundwater,,Vinyl chloride,<0.2,ug/L,0.2,U,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2024Q4-A,MW-8,2024-11-13,Groundwater,,Arsenic,<1,ug/L,1,U,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 6010D
+MW-8-2024Q4-NAN,MW-8,2024-11-13,Groundwater,,Nitrate as N,<50,ug/L,50,U,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 300.0
+MW-1-2025Q1-B,MW-1,2025-02-12,Groundwater,,Benzene,12.3,ug/L,0.5,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2025Q1-T,MW-1,2025-02-12,Groundwater,,Toluene,117,ug/L,1,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2025Q1-E,MW-1,2025-02-12,Groundwater,,Ethylbenzene,35.6,ug/L,1,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2025Q1-X,MW-1,2025-02-12,Groundwater,,Xylenes,306,ug/L,2,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2025Q1-T,MW-1,2025-02-12,Groundwater,,Trichloroethene,17.4,ug/L,0.5,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2025Q1-T,MW-1,2025-02-12,Groundwater,,Tetrachloroethene,9.51,ug/L,0.5,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2025Q1-VC,MW-1,2025-02-12,Groundwater,,Vinyl chloride,3.71,ug/L,0.2,,35.47821,-97.51566,1171.49,12.73,Source,EPA 8260D
+MW-1-2025Q1-A,MW-1,2025-02-12,Groundwater,,Arsenic,10.2,ug/L,1,,35.47821,-97.51566,1171.49,12.73,Source,EPA 6010D
+MW-1-2025Q1-NAN,MW-1,2025-02-12,Groundwater,,Nitrate as N,5043,ug/L,50,,35.47821,-97.51566,1171.49,12.73,Source,EPA 300.0
+MW-2-2025Q1-B,MW-2,2025-02-12,Groundwater,,Benzene,10.2,ug/L,0.5,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2025Q1-T,MW-2,2025-02-12,Groundwater,,Toluene,96.3,ug/L,1,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2025Q1-E,MW-2,2025-02-12,Groundwater,,Ethylbenzene,27.2,ug/L,1,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2025Q1-X,MW-2,2025-02-12,Groundwater,,Xylenes,184,ug/L,2,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2025Q1-T,MW-2,2025-02-12,Groundwater,,Trichloroethene,12.1,ug/L,0.5,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2025Q1-T,MW-2,2025-02-12,Groundwater,,Tetrachloroethene,7.41,ug/L,0.5,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2025Q1-VC,MW-2,2025-02-12,Groundwater,,Vinyl chloride,2.97,ug/L,0.2,,35.47842,-97.51498,1171.04,13.18,Source,EPA 8260D
+MW-2-2025Q1-A,MW-2,2025-02-12,Groundwater,,Arsenic,7.45,ug/L,1,,35.47842,-97.51498,1171.04,13.18,Source,EPA 6010D
+MW-2-2025Q1-NAN,MW-2,2025-02-12,Groundwater,,Nitrate as N,4036,ug/L,50,,35.47842,-97.51498,1171.04,13.18,Source,EPA 300.0
+MW-3-2025Q1-B,MW-3,2025-02-12,Groundwater,,Benzene,5.57,ug/L,0.5,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2025Q1-T,MW-3,2025-02-12,Groundwater,,Toluene,76.3,ug/L,1,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2025Q1-E,MW-3,2025-02-12,Groundwater,,Ethylbenzene,18.7,ug/L,1,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2025Q1-X,MW-3,2025-02-12,Groundwater,,Xylenes,138,ug/L,2,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2025Q1-T,MW-3,2025-02-12,Groundwater,,Trichloroethene,7.97,ug/L,0.5,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2025Q1-T,MW-3,2025-02-12,Groundwater,,Tetrachloroethene,5.01,ug/L,0.5,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2025Q1-VC,MW-3,2025-02-12,Groundwater,,Vinyl chloride,2.07,ug/L,0.2,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 8260D
+MW-3-2025Q1-A,MW-3,2025-02-12,Groundwater,,Arsenic,5.45,ug/L,1,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 6010D
+MW-3-2025Q1-NAN,MW-3,2025-02-12,Groundwater,,Nitrate as N,2392,ug/L,50,,35.47883,-97.51421,1170.55,13.67,Mid-plume,EPA 300.0
+MW-4-2025Q1-B,MW-4,2025-02-12,Groundwater,,Benzene,2.92,ug/L,0.5,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2025Q1-T,MW-4,2025-02-12,Groundwater,,Toluene,23.9,ug/L,1,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2025Q1-E,MW-4,2025-02-12,Groundwater,,Ethylbenzene,16.4,ug/L,1,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2025Q1-X,MW-4,2025-02-12,Groundwater,,Xylenes,77.4,ug/L,2,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2025Q1-T,MW-4,2025-02-12,Groundwater,,Trichloroethene,4.75,ug/L,0.5,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2025Q1-T,MW-4,2025-02-12,Groundwater,,Tetrachloroethene,2.87,ug/L,0.5,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2025Q1-VC,MW-4,2025-02-12,Groundwater,,Vinyl chloride,1.09,ug/L,0.2,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 8260D
+MW-4-2025Q1-A,MW-4,2025-02-12,Groundwater,,Arsenic,3.50,ug/L,1,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 6010D
+MW-4-2025Q1-NAN,MW-4,2025-02-12,Groundwater,,Nitrate as N,1571,ug/L,50,,35.47916,-97.51352,1170.18,14.04,Mid-plume,EPA 300.0
+MW-5-2025Q1-B,MW-5,2025-02-12,Groundwater,,Benzene,2.93,ug/L,0.5,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2025Q1-T,MW-5,2025-02-12,Groundwater,,Toluene,27.9,ug/L,1,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2025Q1-E,MW-5,2025-02-12,Groundwater,,Ethylbenzene,4.39,ug/L,1,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2025Q1-X,MW-5,2025-02-12,Groundwater,,Xylenes,71.6,ug/L,2,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2025Q1-T,MW-5,2025-02-12,Groundwater,,Trichloroethene,3.09,ug/L,0.5,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2025Q1-T,MW-5,2025-02-12,Groundwater,,Tetrachloroethene,1.75,ug/L,0.5,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2025Q1-VC,MW-5,2025-02-12,Groundwater,,Vinyl chloride,0.512,ug/L,0.2,J,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 8260D
+MW-5-2025Q1-A,MW-5,2025-02-12,Groundwater,,Arsenic,1.60,ug/L,1,J,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 6010D
+MW-5-2025Q1-NAN,MW-5,2025-02-12,Groundwater,,Nitrate as N,561,ug/L,50,,35.47942,-97.51274,1169.89,14.33,Downgradient,EPA 300.0
+MW-6-2025Q1-B,MW-6,2025-02-12,Groundwater,,Benzene,<0.5,ug/L,0.5,U,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2025Q1-T,MW-6,2025-02-12,Groundwater,,Toluene,<1,ug/L,1,U,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2025Q1-E,MW-6,2025-02-12,Groundwater,,Ethylbenzene,4.97,ug/L,1,,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2025Q1-X,MW-6,2025-02-12,Groundwater,,Xylenes,32.4,ug/L,2,,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2025Q1-T,MW-6,2025-02-12,Groundwater,,Trichloroethene,2.04,ug/L,0.5,,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2025Q1-T,MW-6,2025-02-12,Groundwater,,Tetrachloroethene,0.783,ug/L,0.5,J,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2025Q1-VC,MW-6,2025-02-12,Groundwater,,Vinyl chloride,0.226,ug/L,0.2,J,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 8260D
+MW-6-2025Q1-A,MW-6,2025-02-12,Groundwater,,Arsenic,<1,ug/L,1,U,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 6010D
+MW-6-2025Q1-NAN,MW-6,2025-02-12,Groundwater,,Nitrate as N,152,ug/L,50,,35.47788,-97.51633,1169.73,14.49,Upgradient,EPA 300.0
+MW-7-2025Q1-B,MW-7,2025-02-12,Groundwater,,Benzene,0.643,ug/L,0.5,J,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2025Q1-T,MW-7,2025-02-12,Groundwater,,Toluene,25.3,ug/L,1,,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2025Q1-E,MW-7,2025-02-12,Groundwater,,Ethylbenzene,6.82,ug/L,1,,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2025Q1-X,MW-7,2025-02-12,Groundwater,,Xylenes,22.3,ug/L,2,,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2025Q1-T,MW-7,2025-02-12,Groundwater,,Trichloroethene,1.51,ug/L,0.5,B,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2025Q1-T,MW-7,2025-02-12,Groundwater,,Tetrachloroethene,1.30,ug/L,0.5,J,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2025Q1-VC,MW-7,2025-02-12,Groundwater,,Vinyl chloride,0.513,ug/L,0.2,J,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 8260D
+MW-7-2025Q1-A,MW-7,2025-02-12,Groundwater,,Arsenic,<1,ug/L,1,U,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 6010D
+MW-7-2025Q1-NAN,MW-7,2025-02-12,Groundwater,,Nitrate as N,810,ug/L,50,,35.48001,-97.51210,1169.78,14.44,Property boundary,EPA 300.0
+MW-8-2025Q1-B,MW-8,2025-02-12,Groundwater,,Benzene,<0.5,ug/L,0.5,U,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2025Q1-T,MW-8,2025-02-12,Groundwater,,Toluene,<1,ug/L,1,U,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2025Q1-E,MW-8,2025-02-12,Groundwater,,Ethylbenzene,5.40,ug/L,1,,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2025Q1-X,MW-8,2025-02-12,Groundwater,,Xylenes,37.5,ug/L,2,,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2025Q1-T,MW-8,2025-02-12,Groundwater,,Trichloroethene,1.60,ug/L,0.5,,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2025Q1-T,MW-8,2025-02-12,Groundwater,,Tetrachloroethene,<0.5,ug/L,0.5,U,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2025Q1-VC,MW-8,2025-02-12,Groundwater,,Vinyl chloride,<0.2,ug/L,0.2,U,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 8260D
+MW-8-2025Q1-A,MW-8,2025-02-12,Groundwater,,Arsenic,<1,ug/L,1,U,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 6010D
+MW-8-2025Q1-NAN,MW-8,2025-02-12,Groundwater,,Nitrate as N,219,ug/L,50,B,35.48044,-97.51142,1169.67,14.55,Offsite sentinel,EPA 300.0
+MW-1-2025Q2-B,MW-1,2025-05-14,Groundwater,,Benzene,12.5,ug/L,0.5,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2025Q2-T,MW-1,2025-05-14,Groundwater,,Toluene,119,ug/L,1,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2025Q2-E,MW-1,2025-05-14,Groundwater,,Ethylbenzene,37.7,ug/L,1,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2025Q2-X,MW-1,2025-05-14,Groundwater,,Xylenes,273,ug/L,2,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2025Q2-T,MW-1,2025-05-14,Groundwater,,Trichloroethene,17.9,ug/L,0.5,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2025Q2-T,MW-1,2025-05-14,Groundwater,,Tetrachloroethene,10.7,ug/L,0.5,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2025Q2-VC,MW-1,2025-05-14,Groundwater,,Vinyl chloride,4.21,ug/L,0.2,,35.47821,-97.51566,1171.13,13.09,Source,EPA 8260D
+MW-1-2025Q2-A,MW-1,2025-05-14,Groundwater,,Arsenic,10.9,ug/L,1,,35.47821,-97.51566,1171.13,13.09,Source,EPA 6010D
+MW-1-2025Q2-NAN,MW-1,2025-05-14,Groundwater,,Nitrate as N,5736,ug/L,50,,35.47821,-97.51566,1171.13,13.09,Source,EPA 300.0
+MW-2-2025Q2-B,MW-2,2025-05-14,Groundwater,,Benzene,9.11,ug/L,0.5,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2025Q2-T,MW-2,2025-05-14,Groundwater,,Toluene,90.4,ug/L,1,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2025Q2-E,MW-2,2025-05-14,Groundwater,,Ethylbenzene,33.1,ug/L,1,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2025Q2-X,MW-2,2025-05-14,Groundwater,,Xylenes,200,ug/L,2,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2025Q2-T,MW-2,2025-05-14,Groundwater,,Trichloroethene,13.1,ug/L,0.5,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2025Q2-T,MW-2,2025-05-14,Groundwater,,Tetrachloroethene,8.17,ug/L,0.5,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2025Q2-VC,MW-2,2025-05-14,Groundwater,,Vinyl chloride,3.30,ug/L,0.2,,35.47842,-97.51498,1170.68,13.54,Source,EPA 8260D
+MW-2-2025Q2-A,MW-2,2025-05-14,Groundwater,,Arsenic,8.88,ug/L,1,,35.47842,-97.51498,1170.68,13.54,Source,EPA 6010D
+MW-2-2025Q2-NAN,MW-2,2025-05-14,Groundwater,,Nitrate as N,4224,ug/L,50,,35.47842,-97.51498,1170.68,13.54,Source,EPA 300.0
+MW-3-2025Q2-B,MW-3,2025-05-14,Groundwater,,Benzene,6.44,ug/L,0.5,R,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2025Q2-T,MW-3,2025-05-14,Groundwater,,Toluene,59.2,ug/L,1,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2025Q2-E,MW-3,2025-05-14,Groundwater,,Ethylbenzene,17.0,ug/L,1,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2025Q2-X,MW-3,2025-05-14,Groundwater,,Xylenes,123,ug/L,2,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2025Q2-T,MW-3,2025-05-14,Groundwater,,Trichloroethene,9.94,ug/L,0.5,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2025Q2-T,MW-3,2025-05-14,Groundwater,,Tetrachloroethene,5.66,ug/L,0.5,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2025Q2-VC,MW-3,2025-05-14,Groundwater,,Vinyl chloride,2.27,ug/L,0.2,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 8260D
+MW-3-2025Q2-A,MW-3,2025-05-14,Groundwater,,Arsenic,5.90,ug/L,1,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 6010D
+MW-3-2025Q2-NAN,MW-3,2025-05-14,Groundwater,,Nitrate as N,2975,ug/L,50,,35.47883,-97.51421,1170.19,14.03,Mid-plume,EPA 300.0
+MW-4-2025Q2-B,MW-4,2025-05-14,Groundwater,,Benzene,3.73,ug/L,0.5,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2025Q2-T,MW-4,2025-05-14,Groundwater,,Toluene,23.9,ug/L,1,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2025Q2-E,MW-4,2025-05-14,Groundwater,,Ethylbenzene,9.95,ug/L,1,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2025Q2-X,MW-4,2025-05-14,Groundwater,,Xylenes,87.9,ug/L,2,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2025Q2-T,MW-4,2025-05-14,Groundwater,,Trichloroethene,6.42,ug/L,0.5,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2025Q2-T,MW-4,2025-05-14,Groundwater,,Tetrachloroethene,3.49,ug/L,0.5,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2025Q2-VC,MW-4,2025-05-14,Groundwater,,Vinyl chloride,1.32,ug/L,0.2,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 8260D
+MW-4-2025Q2-A,MW-4,2025-05-14,Groundwater,,Arsenic,3.18,ug/L,1,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 6010D
+MW-4-2025Q2-NAN,MW-4,2025-05-14,Groundwater,,Nitrate as N,1756,ug/L,50,,35.47916,-97.51352,1169.82,14.40,Mid-plume,EPA 300.0
+MW-5-2025Q2-B,MW-5,2025-05-14,Groundwater,,Benzene,2.25,ug/L,0.5,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2025Q2-T,MW-5,2025-05-14,Groundwater,,Toluene,6.38,ug/L,1,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2025Q2-E,MW-5,2025-05-14,Groundwater,,Ethylbenzene,10.7,ug/L,1,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2025Q2-X,MW-5,2025-05-14,Groundwater,,Xylenes,69.9,ug/L,2,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2025Q2-T,MW-5,2025-05-14,Groundwater,,Trichloroethene,3.19,ug/L,0.5,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2025Q2-T,MW-5,2025-05-14,Groundwater,,Tetrachloroethene,1.35,ug/L,0.5,J,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2025Q2-VC,MW-5,2025-05-14,Groundwater,,Vinyl chloride,0.726,ug/L,0.2,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 8260D
+MW-5-2025Q2-A,MW-5,2025-05-14,Groundwater,,Arsenic,1.80,ug/L,1,J,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 6010D
+MW-5-2025Q2-NAN,MW-5,2025-05-14,Groundwater,,Nitrate as N,1117,ug/L,50,,35.47942,-97.51274,1169.53,14.69,Downgradient,EPA 300.0
+MW-6-2025Q2-B,MW-6,2025-05-14,Groundwater,,Benzene,<0.5,ug/L,0.5,U,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2025Q2-T,MW-6,2025-05-14,Groundwater,,Toluene,<1,ug/L,1,U,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2025Q2-E,MW-6,2025-05-14,Groundwater,,Ethylbenzene,<1,ug/L,1,U,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2025Q2-X,MW-6,2025-05-14,Groundwater,,Xylenes,43.8,ug/L,2,,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2025Q2-T,MW-6,2025-05-14,Groundwater,,Trichloroethene,2.28,ug/L,0.5,,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2025Q2-T,MW-6,2025-05-14,Groundwater,,Tetrachloroethene,<0.5,ug/L,0.5,U,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2025Q2-VC,MW-6,2025-05-14,Groundwater,,Vinyl chloride,0.412,ug/L,0.2,J,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 8260D
+MW-6-2025Q2-A,MW-6,2025-05-14,Groundwater,,Arsenic,<1,ug/L,1,U,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 6010D
+MW-6-2025Q2-NAN,MW-6,2025-05-14,Groundwater,,Nitrate as N,584,ug/L,50,,35.47788,-97.51633,1169.37,14.85,Upgradient,EPA 300.0
+MW-7-2025Q2-B,MW-7,2025-05-14,Groundwater,,Benzene,1.09,ug/L,0.5,J,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2025Q2-T,MW-7,2025-05-14,Groundwater,,Toluene,30.0,ug/L,1,,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2025Q2-E,MW-7,2025-05-14,Groundwater,,Ethylbenzene,6.99,ug/L,1,,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2025Q2-X,MW-7,2025-05-14,Groundwater,,Xylenes,40.7,ug/L,2,,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2025Q2-T,MW-7,2025-05-14,Groundwater,,Trichloroethene,1.54,ug/L,0.5,,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2025Q2-T,MW-7,2025-05-14,Groundwater,,Tetrachloroethene,1.58,ug/L,0.5,,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2025Q2-VC,MW-7,2025-05-14,Groundwater,,Vinyl chloride,0.453,ug/L,0.2,J,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 8260D
+MW-7-2025Q2-A,MW-7,2025-05-14,Groundwater,,Arsenic,1.39,ug/L,1,J,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 6010D
+MW-7-2025Q2-NAN,MW-7,2025-05-14,Groundwater,,Nitrate as N,606,ug/L,50,,35.48001,-97.51210,1169.42,14.80,Property boundary,EPA 300.0
+MW-8-2025Q2-B,MW-8,2025-05-14,Groundwater,,Benzene,0.832,ug/L,0.5,J,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2025Q2-T,MW-8,2025-05-14,Groundwater,,Toluene,<1,ug/L,1,U,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2025Q2-E,MW-8,2025-05-14,Groundwater,,Ethylbenzene,3.69,ug/L,1,,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2025Q2-X,MW-8,2025-05-14,Groundwater,,Xylenes,27.2,ug/L,2,,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2025Q2-T,MW-8,2025-05-14,Groundwater,,Trichloroethene,0.827,ug/L,0.5,J,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2025Q2-T,MW-8,2025-05-14,Groundwater,,Tetrachloroethene,<0.5,ug/L,0.5,U,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2025Q2-VC,MW-8,2025-05-14,Groundwater,,Vinyl chloride,0.217,ug/L,0.2,J,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 8260D
+MW-8-2025Q2-A,MW-8,2025-05-14,Groundwater,,Arsenic,<1,ug/L,1,U,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 6010D
+MW-8-2025Q2-NAN,MW-8,2025-05-14,Groundwater,,Nitrate as N,286,ug/L,50,,35.48044,-97.51142,1169.31,14.91,Offsite sentinel,EPA 300.0
+MW-1-2025Q3-B,MW-1,2025-08-13,Groundwater,,Benzene,9.13,ug/L,0.5,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2025Q3-T,MW-1,2025-08-13,Groundwater,,Toluene,73.8,ug/L,1,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2025Q3-E,MW-1,2025-08-13,Groundwater,,Ethylbenzene,29.4,ug/L,1,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2025Q3-X,MW-1,2025-08-13,Groundwater,,Xylenes,242,ug/L,2,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2025Q3-T,MW-1,2025-08-13,Groundwater,,Trichloroethene,16.6,ug/L,0.5,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2025Q3-T,MW-1,2025-08-13,Groundwater,,Tetrachloroethene,9.97,ug/L,0.5,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2025Q3-VC,MW-1,2025-08-13,Groundwater,,Vinyl chloride,4.24,ug/L,0.2,,35.47821,-97.51566,1171.60,12.62,Source,EPA 8260D
+MW-1-2025Q3-A,MW-1,2025-08-13,Groundwater,,Arsenic,9.48,ug/L,1,,35.47821,-97.51566,1171.60,12.62,Source,EPA 6010D
+MW-1-2025Q3-NAN,MW-1,2025-08-13,Groundwater,,Nitrate as N,5252,ug/L,50,,35.47821,-97.51566,1171.60,12.62,Source,EPA 300.0
+MW-2-2025Q3-B,MW-2,2025-08-13,Groundwater,,Benzene,7.94,ug/L,0.5,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2025Q3-T,MW-2,2025-08-13,Groundwater,,Toluene,67.8,ug/L,1,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2025Q3-E,MW-2,2025-08-13,Groundwater,,Ethylbenzene,23.7,ug/L,1,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2025Q3-X,MW-2,2025-08-13,Groundwater,,Xylenes,191,ug/L,2,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2025Q3-T,MW-2,2025-08-13,Groundwater,,Trichloroethene,12.1,ug/L,0.5,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2025Q3-T,MW-2,2025-08-13,Groundwater,,Tetrachloroethene,6.82,ug/L,0.5,,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2025Q3-VC,MW-2,2025-08-13,Groundwater,,Vinyl chloride,3.12,ug/L,0.2,R,35.47842,-97.51498,1171.15,13.07,Source,EPA 8260D
+MW-2-2025Q3-A,MW-2,2025-08-13,Groundwater,,Arsenic,8.27,ug/L,1,,35.47842,-97.51498,1171.15,13.07,Source,EPA 6010D
+MW-2-2025Q3-NAN,MW-2,2025-08-13,Groundwater,,Nitrate as N,4117,ug/L,50,,35.47842,-97.51498,1171.15,13.07,Source,EPA 300.0
+MW-3-2025Q3-B,MW-3,2025-08-13,Groundwater,,Benzene,3.95,ug/L,0.5,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2025Q3-T,MW-3,2025-08-13,Groundwater,,Toluene,31.4,ug/L,1,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2025Q3-E,MW-3,2025-08-13,Groundwater,,Ethylbenzene,15.1,ug/L,1,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2025Q3-X,MW-3,2025-08-13,Groundwater,,Xylenes,138,ug/L,2,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2025Q3-T,MW-3,2025-08-13,Groundwater,,Trichloroethene,9.34,ug/L,0.5,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2025Q3-T,MW-3,2025-08-13,Groundwater,,Tetrachloroethene,5.19,ug/L,0.5,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2025Q3-VC,MW-3,2025-08-13,Groundwater,,Vinyl chloride,2.22,ug/L,0.2,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 8260D
+MW-3-2025Q3-A,MW-3,2025-08-13,Groundwater,,Arsenic,4.88,ug/L,1,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 6010D
+MW-3-2025Q3-NAN,MW-3,2025-08-13,Groundwater,,Nitrate as N,2713,ug/L,50,,35.47883,-97.51421,1170.67,13.55,Mid-plume,EPA 300.0
+MW-4-2025Q3-B,MW-4,2025-08-13,Groundwater,,Benzene,4.29,ug/L,0.5,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2025Q3-T,MW-4,2025-08-13,Groundwater,,Toluene,12.1,ug/L,1,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2025Q3-E,MW-4,2025-08-13,Groundwater,,Ethylbenzene,10.7,ug/L,1,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2025Q3-X,MW-4,2025-08-13,Groundwater,,Xylenes,43.9,ug/L,2,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2025Q3-T,MW-4,2025-08-13,Groundwater,,Trichloroethene,5.77,ug/L,0.5,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2025Q3-T,MW-4,2025-08-13,Groundwater,,Tetrachloroethene,2.61,ug/L,0.5,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2025Q3-VC,MW-4,2025-08-13,Groundwater,,Vinyl chloride,1.36,ug/L,0.2,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 8260D
+MW-4-2025Q3-A,MW-4,2025-08-13,Groundwater,,Arsenic,3.77,ug/L,1,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 6010D
+MW-4-2025Q3-NAN,MW-4,2025-08-13,Groundwater,,Nitrate as N,1866,ug/L,50,,35.47916,-97.51352,1170.29,13.93,Mid-plume,EPA 300.0
+MW-5-2025Q3-B,MW-5,2025-08-13,Groundwater,,Benzene,2.31,ug/L,0.5,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2025Q3-T,MW-5,2025-08-13,Groundwater,,Toluene,28.0,ug/L,1,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2025Q3-E,MW-5,2025-08-13,Groundwater,,Ethylbenzene,4.82,ug/L,1,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2025Q3-X,MW-5,2025-08-13,Groundwater,,Xylenes,61.2,ug/L,2,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2025Q3-T,MW-5,2025-08-13,Groundwater,,Trichloroethene,2.50,ug/L,0.5,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2025Q3-T,MW-5,2025-08-13,Groundwater,,Tetrachloroethene,2.06,ug/L,0.5,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2025Q3-VC,MW-5,2025-08-13,Groundwater,,Vinyl chloride,0.631,ug/L,0.2,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 8260D
+MW-5-2025Q3-A,MW-5,2025-08-13,Groundwater,,Arsenic,1.13,ug/L,1,J,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 6010D
+MW-5-2025Q3-NAN,MW-5,2025-08-13,Groundwater,,Nitrate as N,880,ug/L,50,,35.47942,-97.51274,1170.00,14.22,Downgradient,EPA 300.0
+MW-6-2025Q3-B,MW-6,2025-08-13,Groundwater,,Benzene,2.06,ug/L,0.5,,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2025Q3-T,MW-6,2025-08-13,Groundwater,,Toluene,6.10,ug/L,1,,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2025Q3-E,MW-6,2025-08-13,Groundwater,,Ethylbenzene,6.79,ug/L,1,,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2025Q3-X,MW-6,2025-08-13,Groundwater,,Xylenes,3.65,ug/L,2,J,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2025Q3-T,MW-6,2025-08-13,Groundwater,,Trichloroethene,2.03,ug/L,0.5,,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2025Q3-T,MW-6,2025-08-13,Groundwater,,Tetrachloroethene,<0.5,ug/L,0.5,U,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2025Q3-VC,MW-6,2025-08-13,Groundwater,,Vinyl chloride,0.257,ug/L,0.2,J,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 8260D
+MW-6-2025Q3-A,MW-6,2025-08-13,Groundwater,,Arsenic,<1,ug/L,1,U,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 6010D
+MW-6-2025Q3-NAN,MW-6,2025-08-13,Groundwater,,Nitrate as N,615,ug/L,50,,35.47788,-97.51633,1169.84,14.38,Upgradient,EPA 300.0
+MW-7-2025Q3-B,MW-7,2025-08-13,Groundwater,,Benzene,1.38,ug/L,0.5,J,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2025Q3-T,MW-7,2025-08-13,Groundwater,,Toluene,<1,ug/L,1,U,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2025Q3-E,MW-7,2025-08-13,Groundwater,,Ethylbenzene,<1,ug/L,1,U,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2025Q3-X,MW-7,2025-08-13,Groundwater,,Xylenes,51.9,ug/L,2,,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2025Q3-T,MW-7,2025-08-13,Groundwater,,Trichloroethene,1.42,ug/L,0.5,J,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2025Q3-T,MW-7,2025-08-13,Groundwater,,Tetrachloroethene,0.908,ug/L,0.5,J,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2025Q3-VC,MW-7,2025-08-13,Groundwater,,Vinyl chloride,0.453,ug/L,0.2,J,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 8260D
+MW-7-2025Q3-A,MW-7,2025-08-13,Groundwater,,Arsenic,1.39,ug/L,1,J,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 6010D
+MW-7-2025Q3-NAN,MW-7,2025-08-13,Groundwater,,Nitrate as N,788,ug/L,50,,35.48001,-97.51210,1169.89,14.33,Property boundary,EPA 300.0
+MW-8-2025Q3-B,MW-8,2025-08-13,Groundwater,,Benzene,0.601,ug/L,0.5,J,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2025Q3-T,MW-8,2025-08-13,Groundwater,,Toluene,<1,ug/L,1,U,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2025Q3-E,MW-8,2025-08-13,Groundwater,,Ethylbenzene,4.36,ug/L,1,,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2025Q3-X,MW-8,2025-08-13,Groundwater,,Xylenes,44.0,ug/L,2,,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2025Q3-T,MW-8,2025-08-13,Groundwater,,Trichloroethene,0.600,ug/L,0.5,J,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2025Q3-T,MW-8,2025-08-13,Groundwater,,Tetrachloroethene,0.571,ug/L,0.5,J,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2025Q3-VC,MW-8,2025-08-13,Groundwater,,Vinyl chloride,0.207,ug/L,0.2,J,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 8260D
+MW-8-2025Q3-A,MW-8,2025-08-13,Groundwater,,Arsenic,<1,ug/L,1,U,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 6010D
+MW-8-2025Q3-NAN,MW-8,2025-08-13,Groundwater,,Nitrate as N,348,ug/L,50,,35.48044,-97.51142,1169.78,14.44,Offsite sentinel,EPA 300.0
+MW-1-2025Q4-B,MW-1,2025-11-12,Groundwater,,Benzene,7.86,ug/L,0.5,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2025Q4-T,MW-1,2025-11-12,Groundwater,,Toluene,96.9,ug/L,1,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2025Q4-E,MW-1,2025-11-12,Groundwater,,Ethylbenzene,31.2,ug/L,1,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2025Q4-X,MW-1,2025-11-12,Groundwater,,Xylenes,195,ug/L,2,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2025Q4-T,MW-1,2025-11-12,Groundwater,,Trichloroethene,16.7,ug/L,0.5,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2025Q4-T,MW-1,2025-11-12,Groundwater,,Tetrachloroethene,8.81,ug/L,0.5,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2025Q4-VC,MW-1,2025-11-12,Groundwater,,Vinyl chloride,4.16,ug/L,0.2,,35.47821,-97.51566,1171.96,12.26,Source,EPA 8260D
+MW-1-2025Q4-A,MW-1,2025-11-12,Groundwater,,Arsenic,8.72,ug/L,1,,35.47821,-97.51566,1171.96,12.26,Source,EPA 6010D
+MW-1-2025Q4-NAN,MW-1,2025-11-12,Groundwater,,Nitrate as N,4814,ug/L,50,B,35.47821,-97.51566,1171.96,12.26,Source,EPA 300.0
+MW-2-2025Q4-B,MW-2,2025-11-12,Groundwater,,Benzene,6.39,ug/L,0.5,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2025Q4-T,MW-2,2025-11-12,Groundwater,,Toluene,47.0,ug/L,1,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2025Q4-E,MW-2,2025-11-12,Groundwater,,Ethylbenzene,21.1,ug/L,1,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2025Q4-X,MW-2,2025-11-12,Groundwater,,Xylenes,159,ug/L,2,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2025Q4-T,MW-2,2025-11-12,Groundwater,,Trichloroethene,13.4,ug/L,0.5,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2025Q4-T,MW-2,2025-11-12,Groundwater,,Tetrachloroethene,7.43,ug/L,0.5,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2025Q4-VC,MW-2,2025-11-12,Groundwater,,Vinyl chloride,3.29,ug/L,0.2,,35.47842,-97.51498,1171.51,12.71,Source,EPA 8260D
+MW-2-2025Q4-A,MW-2,2025-11-12,Groundwater,,Arsenic,6.60,ug/L,1,,35.47842,-97.51498,1171.51,12.71,Source,EPA 6010D
+MW-2-2025Q4-NAN,MW-2,2025-11-12,Groundwater,,Nitrate as N,3948,ug/L,50,,35.47842,-97.51498,1171.51,12.71,Source,EPA 300.0
+MW-3-2025Q4-B,MW-3,2025-11-12,Groundwater,,Benzene,4.32,ug/L,0.5,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2025Q4-T,MW-3,2025-11-12,Groundwater,,Toluene,33.9,ug/L,1,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2025Q4-E,MW-3,2025-11-12,Groundwater,,Ethylbenzene,16.0,ug/L,1,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2025Q4-X,MW-3,2025-11-12,Groundwater,,Xylenes,119,ug/L,2,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2025Q4-T,MW-3,2025-11-12,Groundwater,,Trichloroethene,8.46,ug/L,0.5,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2025Q4-T,MW-3,2025-11-12,Groundwater,,Tetrachloroethene,4.31,ug/L,0.5,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2025Q4-VC,MW-3,2025-11-12,Groundwater,,Vinyl chloride,2.33,ug/L,0.2,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 8260D
+MW-3-2025Q4-A,MW-3,2025-11-12,Groundwater,,Arsenic,4.28,ug/L,1,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 6010D
+MW-3-2025Q4-NAN,MW-3,2025-11-12,Groundwater,,Nitrate as N,2233,ug/L,50,,35.47883,-97.51421,1171.03,13.19,Mid-plume,EPA 300.0
+MW-4-2025Q4-B,MW-4,2025-11-12,Groundwater,,Benzene,2.56,ug/L,0.5,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2025Q4-T,MW-4,2025-11-12,Groundwater,,Toluene,37.5,ug/L,1,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2025Q4-E,MW-4,2025-11-12,Groundwater,,Ethylbenzene,12.1,ug/L,1,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2025Q4-X,MW-4,2025-11-12,Groundwater,,Xylenes,51.0,ug/L,2,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2025Q4-T,MW-4,2025-11-12,Groundwater,,Trichloroethene,5.67,ug/L,0.5,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2025Q4-T,MW-4,2025-11-12,Groundwater,,Tetrachloroethene,3.09,ug/L,0.5,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2025Q4-VC,MW-4,2025-11-12,Groundwater,,Vinyl chloride,1.36,ug/L,0.2,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 8260D
+MW-4-2025Q4-A,MW-4,2025-11-12,Groundwater,,Arsenic,2.50,ug/L,1,J,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 6010D
+MW-4-2025Q4-NAN,MW-4,2025-11-12,Groundwater,,Nitrate as N,1475,ug/L,50,,35.47916,-97.51352,1170.65,13.57,Mid-plume,EPA 300.0
+MW-5-2025Q4-B,MW-5,2025-11-12,Groundwater,,Benzene,2.22,ug/L,0.5,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2025Q4-T,MW-5,2025-11-12,Groundwater,,Toluene,8.89,ug/L,1,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2025Q4-E,MW-5,2025-11-12,Groundwater,,Ethylbenzene,8.33,ug/L,1,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2025Q4-X,MW-5,2025-11-12,Groundwater,,Xylenes,31.7,ug/L,2,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2025Q4-T,MW-5,2025-11-12,Groundwater,,Trichloroethene,2.45,ug/L,0.5,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2025Q4-T,MW-5,2025-11-12,Groundwater,,Tetrachloroethene,1.75,ug/L,0.5,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2025Q4-VC,MW-5,2025-11-12,Groundwater,,Vinyl chloride,0.813,ug/L,0.2,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 8260D
+MW-5-2025Q4-A,MW-5,2025-11-12,Groundwater,,Arsenic,2.11,ug/L,1,J,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 6010D
+MW-5-2025Q4-NAN,MW-5,2025-11-12,Groundwater,,Nitrate as N,636,ug/L,50,,35.47942,-97.51274,1170.36,13.86,Downgradient,EPA 300.0
+MW-6-2025Q4-B,MW-6,2025-11-12,Groundwater,,Benzene,<0.5,ug/L,0.5,U,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2025Q4-T,MW-6,2025-11-12,Groundwater,,Toluene,6.19,ug/L,1,,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2025Q4-E,MW-6,2025-11-12,Groundwater,,Ethylbenzene,7.01,ug/L,1,,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2025Q4-X,MW-6,2025-11-12,Groundwater,,Xylenes,41.6,ug/L,2,,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2025Q4-T,MW-6,2025-11-12,Groundwater,,Trichloroethene,0.784,ug/L,0.5,J,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2025Q4-T,MW-6,2025-11-12,Groundwater,,Tetrachloroethene,<0.5,ug/L,0.5,U,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2025Q4-VC,MW-6,2025-11-12,Groundwater,,Vinyl chloride,0.272,ug/L,0.2,J,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 8260D
+MW-6-2025Q4-A,MW-6,2025-11-12,Groundwater,,Arsenic,<1,ug/L,1,U,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 6010D
+MW-6-2025Q4-NAN,MW-6,2025-11-12,Groundwater,,Nitrate as N,698,ug/L,50,,35.47788,-97.51633,1170.20,14.02,Upgradient,EPA 300.0
+MW-7-2025Q4-B,MW-7,2025-11-12,Groundwater,,Benzene,0.528,ug/L,0.5,J,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2025Q4-T,MW-7,2025-11-12,Groundwater,,Toluene,5.66,ug/L,1,B,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2025Q4-E,MW-7,2025-11-12,Groundwater,,Ethylbenzene,1.21,ug/L,1,J,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2025Q4-X,MW-7,2025-11-12,Groundwater,,Xylenes,<2,ug/L,2,U,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2025Q4-T,MW-7,2025-11-12,Groundwater,,Trichloroethene,1.13,ug/L,0.5,J,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2025Q4-T,MW-7,2025-11-12,Groundwater,,Tetrachloroethene,1.55,ug/L,0.5,B,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2025Q4-VC,MW-7,2025-11-12,Groundwater,,Vinyl chloride,0.367,ug/L,0.2,J,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 8260D
+MW-7-2025Q4-A,MW-7,2025-11-12,Groundwater,,Arsenic,1.01,ug/L,1,J,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 6010D
+MW-7-2025Q4-NAN,MW-7,2025-11-12,Groundwater,,Nitrate as N,796,ug/L,50,,35.48001,-97.51210,1170.25,13.97,Property boundary,EPA 300.0
+MW-8-2025Q4-B,MW-8,2025-11-12,Groundwater,,Benzene,1.41,ug/L,0.5,J,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2025Q4-T,MW-8,2025-11-12,Groundwater,,Toluene,3.58,ug/L,1,,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2025Q4-E,MW-8,2025-11-12,Groundwater,,Ethylbenzene,1.07,ug/L,1,J,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2025Q4-X,MW-8,2025-11-12,Groundwater,,Xylenes,35.8,ug/L,2,,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2025Q4-T,MW-8,2025-11-12,Groundwater,,Trichloroethene,<0.5,ug/L,0.5,U,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2025Q4-T,MW-8,2025-11-12,Groundwater,,Tetrachloroethene,<0.5,ug/L,0.5,U,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2025Q4-VC,MW-8,2025-11-12,Groundwater,,Vinyl chloride,<0.2,ug/L,0.2,U,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 8260D
+MW-8-2025Q4-A,MW-8,2025-11-12,Groundwater,,Arsenic,<1,ug/L,1,U,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 6010D
+MW-8-2025Q4-NAN,MW-8,2025-11-12,Groundwater,,Nitrate as N,410,ug/L,50,,35.48044,-97.51142,1170.14,14.08,Offsite sentinel,EPA 300.0
+SB-1-0-2-B,SB-1,2025-04-22,Soil,0-2,Benzene,0.390,mg/kg,0.005,,35.47810,-97.51572,,,Source area borings,EPA 8260D
+SB-1-0-2-T,SB-1,2025-04-22,Soil,0-2,Toluene,8.03,mg/kg,0.01,,35.47810,-97.51572,,,Source area borings,EPA 8260D
+SB-1-0-2-E,SB-1,2025-04-22,Soil,0-2,Ethylbenzene,3.32,mg/kg,0.01,,35.47810,-97.51572,,,Source area borings,EPA 8260D
+SB-1-0-2-X,SB-1,2025-04-22,Soil,0-2,Xylenes,19.7,mg/kg,0.02,,35.47810,-97.51572,,,Source area borings,EPA 8260D
+SB-1-0-2-A,SB-1,2025-04-22,Soil,0-2,Arsenic,9.75,mg/kg,0.2,,35.47810,-97.51572,,,Source area borings,EPA 6010D
+SB-1-0-2-L,SB-1,2025-04-22,Soil,0-2,Lead,144,mg/kg,0.5,,35.47810,-97.51572,,,Source area borings,EPA 6010D
+SB-1-4-6-B,SB-1,2025-04-22,Soil,4-6,Benzene,0.245,mg/kg,0.005,,35.47810,-97.51572,,,Source area borings,EPA 8260D
+SB-1-4-6-T,SB-1,2025-04-22,Soil,4-6,Toluene,6.21,mg/kg,0.01,,35.47810,-97.51572,,,Source area borings,EPA 8260D
+SB-1-4-6-E,SB-1,2025-04-22,Soil,4-6,Ethylbenzene,2.90,mg/kg,0.01,,35.47810,-97.51572,,,Source area borings,EPA 8260D
+SB-1-4-6-X,SB-1,2025-04-22,Soil,4-6,Xylenes,15.5,mg/kg,0.02,,35.47810,-97.51572,,,Source area borings,EPA 8260D
+SB-1-4-6-A,SB-1,2025-04-22,Soil,4-6,Arsenic,7.01,mg/kg,0.2,,35.47810,-97.51572,,,Source area borings,EPA 6010D
+SB-1-4-6-L,SB-1,2025-04-22,Soil,4-6,Lead,93.4,mg/kg,0.5,,35.47810,-97.51572,,,Source area borings,EPA 6010D
+SB-1-8-10-B,SB-1,2025-04-22,Soil,8-10,Benzene,0.170,mg/kg,0.005,,35.47810,-97.51572,,,Source area borings,EPA 8260D
+SB-1-8-10-T,SB-1,2025-04-22,Soil,8-10,Toluene,2.24,mg/kg,0.01,,35.47810,-97.51572,,,Source area borings,EPA 8260D
+SB-1-8-10-E,SB-1,2025-04-22,Soil,8-10,Ethylbenzene,1.32,mg/kg,0.01,B,35.47810,-97.51572,,,Source area borings,EPA 8260D
+SB-1-8-10-X,SB-1,2025-04-22,Soil,8-10,Xylenes,9.11,mg/kg,0.02,,35.47810,-97.51572,,,Source area borings,EPA 8260D
+SB-1-8-10-A,SB-1,2025-04-22,Soil,8-10,Arsenic,4.41,mg/kg,0.2,,35.47810,-97.51572,,,Source area borings,EPA 6010D
+SB-1-8-10-L,SB-1,2025-04-22,Soil,8-10,Lead,55.7,mg/kg,0.5,,35.47810,-97.51572,,,Source area borings,EPA 6010D
+SB-2-0-2-B,SB-2,2025-04-22,Soil,0-2,Benzene,0.301,mg/kg,0.005,,35.47836,-97.51528,,,Source area borings,EPA 8260D
+SB-2-0-2-T,SB-2,2025-04-22,Soil,0-2,Toluene,6.86,mg/kg,0.01,,35.47836,-97.51528,,,Source area borings,EPA 8260D
+SB-2-0-2-E,SB-2,2025-04-22,Soil,0-2,Ethylbenzene,2.52,mg/kg,0.01,,35.47836,-97.51528,,,Source area borings,EPA 8260D
+SB-2-0-2-X,SB-2,2025-04-22,Soil,0-2,Xylenes,14.7,mg/kg,0.02,,35.47836,-97.51528,,,Source area borings,EPA 8260D
+SB-2-0-2-A,SB-2,2025-04-22,Soil,0-2,Arsenic,8.40,mg/kg,0.2,,35.47836,-97.51528,,,Source area borings,EPA 6010D
+SB-2-0-2-L,SB-2,2025-04-22,Soil,0-2,Lead,97.8,mg/kg,0.5,,35.47836,-97.51528,,,Source area borings,EPA 6010D
+SB-2-4-6-B,SB-2,2025-04-22,Soil,4-6,Benzene,0.230,mg/kg,0.005,,35.47836,-97.51528,,,Source area borings,EPA 8260D
+SB-2-4-6-T,SB-2,2025-04-22,Soil,4-6,Toluene,4.77,mg/kg,0.01,,35.47836,-97.51528,,,Source area borings,EPA 8260D
+SB-2-4-6-E,SB-2,2025-04-22,Soil,4-6,Ethylbenzene,2.23,mg/kg,0.01,,35.47836,-97.51528,,,Source area borings,EPA 8260D
+SB-2-4-6-X,SB-2,2025-04-22,Soil,4-6,Xylenes,11.8,mg/kg,0.02,R,35.47836,-97.51528,,,Source area borings,EPA 8260D
+SB-2-4-6-A,SB-2,2025-04-22,Soil,4-6,Arsenic,6.49,mg/kg,0.2,,35.47836,-97.51528,,,Source area borings,EPA 6010D
+SB-2-4-6-L,SB-2,2025-04-22,Soil,4-6,Lead,71.6,mg/kg,0.5,,35.47836,-97.51528,,,Source area borings,EPA 6010D
+SB-2-8-10-B,SB-2,2025-04-22,Soil,8-10,Benzene,0.082,mg/kg,0.005,,35.47836,-97.51528,,,Source area borings,EPA 8260D
+SB-2-8-10-T,SB-2,2025-04-22,Soil,8-10,Toluene,2.16,mg/kg,0.01,,35.47836,-97.51528,,,Source area borings,EPA 8260D
+SB-2-8-10-E,SB-2,2025-04-22,Soil,8-10,Ethylbenzene,1.11,mg/kg,0.01,,35.47836,-97.51528,,,Source area borings,EPA 8260D
+SB-2-8-10-X,SB-2,2025-04-22,Soil,8-10,Xylenes,7.04,mg/kg,0.02,,35.47836,-97.51528,,,Source area borings,EPA 8260D
+SB-2-8-10-A,SB-2,2025-04-22,Soil,8-10,Arsenic,2.62,mg/kg,0.2,,35.47836,-97.51528,,,Source area borings,EPA 6010D
+SB-2-8-10-L,SB-2,2025-04-22,Soil,8-10,Lead,31.4,mg/kg,0.5,,35.47836,-97.51528,,,Source area borings,EPA 6010D
+SB-3-0-2-B,SB-3,2025-04-22,Soil,0-2,Benzene,0.184,mg/kg,0.005,,35.47879,-97.51486,,,Source area borings,EPA 8260D
+SB-3-0-2-T,SB-3,2025-04-22,Soil,0-2,Toluene,4.04,mg/kg,0.01,,35.47879,-97.51486,,,Source area borings,EPA 8260D
+SB-3-0-2-E,SB-3,2025-04-22,Soil,0-2,Ethylbenzene,1.96,mg/kg,0.01,,35.47879,-97.51486,,,Source area borings,EPA 8260D
+SB-3-0-2-X,SB-3,2025-04-22,Soil,0-2,Xylenes,9.46,mg/kg,0.02,,35.47879,-97.51486,,,Source area borings,EPA 8260D
+SB-3-0-2-A,SB-3,2025-04-22,Soil,0-2,Arsenic,5.65,mg/kg,0.2,,35.47879,-97.51486,,,Source area borings,EPA 6010D
+SB-3-0-2-L,SB-3,2025-04-22,Soil,0-2,Lead,80.8,mg/kg,0.5,,35.47879,-97.51486,,,Source area borings,EPA 6010D
+SB-3-4-6-B,SB-3,2025-04-22,Soil,4-6,Benzene,0.091,mg/kg,0.005,,35.47879,-97.51486,,,Source area borings,EPA 8260D
+SB-3-4-6-T,SB-3,2025-04-22,Soil,4-6,Toluene,3.65,mg/kg,0.01,,35.47879,-97.51486,,,Source area borings,EPA 8260D
+SB-3-4-6-E,SB-3,2025-04-22,Soil,4-6,Ethylbenzene,0.922,mg/kg,0.01,,35.47879,-97.51486,,,Source area borings,EPA 8260D
+SB-3-4-6-X,SB-3,2025-04-22,Soil,4-6,Xylenes,8.52,mg/kg,0.02,,35.47879,-97.51486,,,Source area borings,EPA 8260D
+SB-3-4-6-A,SB-3,2025-04-22,Soil,4-6,Arsenic,2.78,mg/kg,0.2,,35.47879,-97.51486,,,Source area borings,EPA 6010D
+SB-3-4-6-L,SB-3,2025-04-22,Soil,4-6,Lead,40.7,mg/kg,0.5,,35.47879,-97.51486,,,Source area borings,EPA 6010D
+SB-3-8-10-B,SB-3,2025-04-22,Soil,8-10,Benzene,0.031,mg/kg,0.005,,35.47879,-97.51486,,,Source area borings,EPA 8260D
+SB-3-8-10-T,SB-3,2025-04-22,Soil,8-10,Toluene,1.69,mg/kg,0.01,,35.47879,-97.51486,,,Source area borings,EPA 8260D
+SB-3-8-10-E,SB-3,2025-04-22,Soil,8-10,Ethylbenzene,0.589,mg/kg,0.01,,35.47879,-97.51486,,,Source area borings,EPA 8260D
+SB-3-8-10-X,SB-3,2025-04-22,Soil,8-10,Xylenes,5.44,mg/kg,0.02,,35.47879,-97.51486,,,Source area borings,EPA 8260D
+SB-3-8-10-A,SB-3,2025-04-22,Soil,8-10,Arsenic,2.65,mg/kg,0.2,,35.47879,-97.51486,,,Source area borings,EPA 6010D
+SB-3-8-10-L,SB-3,2025-04-22,Soil,8-10,Lead,27.6,mg/kg,0.5,,35.47879,-97.51486,,,Source area borings,EPA 6010D
+SB-4-0-2-B,SB-4,2025-04-22,Soil,0-2,Benzene,0.098,mg/kg,0.005,,35.47911,-97.51422,,,Source area borings,EPA 8260D
+SB-4-0-2-T,SB-4,2025-04-22,Soil,0-2,Toluene,2.07,mg/kg,0.01,,35.47911,-97.51422,,,Source area borings,EPA 8260D
+SB-4-0-2-E,SB-4,2025-04-22,Soil,0-2,Ethylbenzene,0.824,mg/kg,0.01,,35.47911,-97.51422,,,Source area borings,EPA 8260D
+SB-4-0-2-X,SB-4,2025-04-22,Soil,0-2,Xylenes,4.61,mg/kg,0.02,,35.47911,-97.51422,,,Source area borings,EPA 8260D
+SB-4-0-2-A,SB-4,2025-04-22,Soil,0-2,Arsenic,3.00,mg/kg,0.2,,35.47911,-97.51422,,,Source area borings,EPA 6010D
+SB-4-0-2-L,SB-4,2025-04-22,Soil,0-2,Lead,37.7,mg/kg,0.5,,35.47911,-97.51422,,,Source area borings,EPA 6010D
+SB-4-4-6-B,SB-4,2025-04-22,Soil,4-6,Benzene,0.119,mg/kg,0.005,,35.47911,-97.51422,,,Source area borings,EPA 8260D
+SB-4-4-6-T,SB-4,2025-04-22,Soil,4-6,Toluene,2.56,mg/kg,0.01,,35.47911,-97.51422,,,Source area borings,EPA 8260D
+SB-4-4-6-E,SB-4,2025-04-22,Soil,4-6,Ethylbenzene,0.716,mg/kg,0.01,,35.47911,-97.51422,,,Source area borings,EPA 8260D
+SB-4-4-6-X,SB-4,2025-04-22,Soil,4-6,Xylenes,4.29,mg/kg,0.02,,35.47911,-97.51422,,,Source area borings,EPA 8260D
+SB-4-4-6-A,SB-4,2025-04-22,Soil,4-6,Arsenic,3.65,mg/kg,0.2,,35.47911,-97.51422,,,Source area borings,EPA 6010D
+SB-4-4-6-L,SB-4,2025-04-22,Soil,4-6,Lead,24.2,mg/kg,0.5,R,35.47911,-97.51422,,,Source area borings,EPA 6010D
+SB-4-8-10-B,SB-4,2025-04-22,Soil,8-10,Benzene,0.054,mg/kg,0.005,,35.47911,-97.51422,,,Source area borings,EPA 8260D
+SB-4-8-10-T,SB-4,2025-04-22,Soil,8-10,Toluene,1.71,mg/kg,0.01,,35.47911,-97.51422,,,Source area borings,EPA 8260D
+SB-4-8-10-E,SB-4,2025-04-22,Soil,8-10,Ethylbenzene,0.065,mg/kg,0.01,,35.47911,-97.51422,,,Source area borings,EPA 8260D
+SB-4-8-10-X,SB-4,2025-04-22,Soil,8-10,Xylenes,1.76,mg/kg,0.02,,35.47911,-97.51422,,,Source area borings,EPA 8260D
+SB-4-8-10-A,SB-4,2025-04-22,Soil,8-10,Arsenic,<0.2,mg/kg,0.2,U,35.47911,-97.51422,,,Source area borings,EPA 6010D
+SB-4-8-10-L,SB-4,2025-04-22,Soil,8-10,Lead,3.09,mg/kg,0.5,R,35.47911,-97.51422,,,Source area borings,EPA 6010D
+SB-5-0-2-B,SB-5,2025-04-22,Soil,0-2,Benzene,0.043,mg/kg,0.005,,35.47963,-97.51378,,,Source area borings,EPA 8260D
+SB-5-0-2-T,SB-5,2025-04-22,Soil,0-2,Toluene,2.03,mg/kg,0.01,,35.47963,-97.51378,,,Source area borings,EPA 8260D
+SB-5-0-2-E,SB-5,2025-04-22,Soil,0-2,Ethylbenzene,0.723,mg/kg,0.01,,35.47963,-97.51378,,,Source area borings,EPA 8260D
+SB-5-0-2-X,SB-5,2025-04-22,Soil,0-2,Xylenes,3.42,mg/kg,0.02,,35.47963,-97.51378,,,Source area borings,EPA 8260D
+SB-5-0-2-A,SB-5,2025-04-22,Soil,0-2,Arsenic,1.82,mg/kg,0.2,,35.47963,-97.51378,,,Source area borings,EPA 6010D
+SB-5-0-2-L,SB-5,2025-04-22,Soil,0-2,Lead,28.7,mg/kg,0.5,,35.47963,-97.51378,,,Source area borings,EPA 6010D
+SB-5-4-6-B,SB-5,2025-04-22,Soil,4-6,Benzene,0.036,mg/kg,0.005,,35.47963,-97.51378,,,Source area borings,EPA 8260D
+SB-5-4-6-T,SB-5,2025-04-22,Soil,4-6,Toluene,0.644,mg/kg,0.01,B,35.47963,-97.51378,,,Source area borings,EPA 8260D
+SB-5-4-6-E,SB-5,2025-04-22,Soil,4-6,Ethylbenzene,0.117,mg/kg,0.01,,35.47963,-97.51378,,,Source area borings,EPA 8260D
+SB-5-4-6-X,SB-5,2025-04-22,Soil,4-6,Xylenes,3.29,mg/kg,0.02,,35.47963,-97.51378,,,Source area borings,EPA 8260D
+SB-5-4-6-A,SB-5,2025-04-22,Soil,4-6,Arsenic,1.30,mg/kg,0.2,,35.47963,-97.51378,,,Source area borings,EPA 6010D
+SB-5-4-6-L,SB-5,2025-04-22,Soil,4-6,Lead,9.27,mg/kg,0.5,,35.47963,-97.51378,,,Source area borings,EPA 6010D
+SB-5-8-10-B,SB-5,2025-04-22,Soil,8-10,Benzene,<0.005,mg/kg,0.005,U,35.47963,-97.51378,,,Source area borings,EPA 8260D
+SB-5-8-10-T,SB-5,2025-04-22,Soil,8-10,Toluene,0.867,mg/kg,0.01,,35.47963,-97.51378,,,Source area borings,EPA 8260D
+SB-5-8-10-E,SB-5,2025-04-22,Soil,8-10,Ethylbenzene,0.087,mg/kg,0.01,,35.47963,-97.51378,,,Source area borings,EPA 8260D
+SB-5-8-10-X,SB-5,2025-04-22,Soil,8-10,Xylenes,1.02,mg/kg,0.02,,35.47963,-97.51378,,,Source area borings,EPA 8260D
+SB-5-8-10-A,SB-5,2025-04-22,Soil,8-10,Arsenic,1.66,mg/kg,0.2,,35.47963,-97.51378,,,Source area borings,EPA 6010D
+SB-5-8-10-L,SB-5,2025-04-22,Soil,8-10,Lead,10.8,mg/kg,0.5,,35.47963,-97.51378,,,Source area borings,EPA 6010D
+SB-6-0-2-B,SB-6,2025-04-22,Soil,0-2,Benzene,0.026,mg/kg,0.005,,35.47782,-97.51620,,,Source area borings,EPA 8260D
+SB-6-0-2-T,SB-6,2025-04-22,Soil,0-2,Toluene,0.723,mg/kg,0.01,,35.47782,-97.51620,,,Source area borings,EPA 8260D
+SB-6-0-2-E,SB-6,2025-04-22,Soil,0-2,Ethylbenzene,0.214,mg/kg,0.01,,35.47782,-97.51620,,,Source area borings,EPA 8260D
+SB-6-0-2-X,SB-6,2025-04-22,Soil,0-2,Xylenes,3.18,mg/kg,0.02,,35.47782,-97.51620,,,Source area borings,EPA 8260D
+SB-6-0-2-A,SB-6,2025-04-22,Soil,0-2,Arsenic,1.59,mg/kg,0.2,,35.47782,-97.51620,,,Source area borings,EPA 6010D
+SB-6-0-2-L,SB-6,2025-04-22,Soil,0-2,Lead,21.4,mg/kg,0.5,,35.47782,-97.51620,,,Source area borings,EPA 6010D
+SB-6-4-6-B,SB-6,2025-04-22,Soil,4-6,Benzene,<0.005,mg/kg,0.005,U,35.47782,-97.51620,,,Source area borings,EPA 8260D
+SB-6-4-6-T,SB-6,2025-04-22,Soil,4-6,Toluene,<0.01,mg/kg,0.01,U,35.47782,-97.51620,,,Source area borings,EPA 8260D
+SB-6-4-6-E,SB-6,2025-04-22,Soil,4-6,Ethylbenzene,0.127,mg/kg,0.01,,35.47782,-97.51620,,,Source area borings,EPA 8260D
+SB-6-4-6-X,SB-6,2025-04-22,Soil,4-6,Xylenes,2.90,mg/kg,0.02,,35.47782,-97.51620,,,Source area borings,EPA 8260D
+SB-6-4-6-A,SB-6,2025-04-22,Soil,4-6,Arsenic,<0.2,mg/kg,0.2,U,35.47782,-97.51620,,,Source area borings,EPA 6010D
+SB-6-4-6-L,SB-6,2025-04-22,Soil,4-6,Lead,10.6,mg/kg,0.5,,35.47782,-97.51620,,,Source area borings,EPA 6010D
+SB-6-8-10-B,SB-6,2025-04-22,Soil,8-10,Benzene,<0.005,mg/kg,0.005,U,35.47782,-97.51620,,,Source area borings,EPA 8260D
+SB-6-8-10-T,SB-6,2025-04-22,Soil,8-10,Toluene,1.06,mg/kg,0.01,,35.47782,-97.51620,,,Source area borings,EPA 8260D
+SB-6-8-10-E,SB-6,2025-04-22,Soil,8-10,Ethylbenzene,0.352,mg/kg,0.01,,35.47782,-97.51620,,,Source area borings,EPA 8260D
+SB-6-8-10-X,SB-6,2025-04-22,Soil,8-10,Xylenes,<0.02,mg/kg,0.02,U,35.47782,-97.51620,,,Source area borings,EPA 8260D
+SB-6-8-10-A,SB-6,2025-04-22,Soil,8-10,Arsenic,1.34,mg/kg,0.2,,35.47782,-97.51620,,,Source area borings,EPA 6010D
+SB-6-8-10-L,SB-6,2025-04-22,Soil,8-10,Lead,7.71,mg/kg,0.5,,35.47782,-97.51620,,,Source area borings,EPA 6010D
+SG-1-2025Q2-B,SG-1,2025-05-01,Soil Gas,5,Benzene,574,ug/m3,5,,35.47815,-97.51561,,,Vapor screening,TO-15
+SG-1-2025Q2-T,SG-1,2025-05-01,Soil Gas,5,Trichloroethene,191,ug/m3,5,,35.47815,-97.51561,,,Vapor screening,TO-15
+SG-1-2025Q2-T,SG-1,2025-05-01,Soil Gas,5,Tetrachloroethene,1191,ug/m3,10,,35.47815,-97.51561,,,Vapor screening,TO-15
+SG-1-2025Q2-VC,SG-1,2025-05-01,Soil Gas,5,Vinyl chloride,75.3,ug/m3,2,,35.47815,-97.51561,,,Vapor screening,TO-15
+SG-2-2025Q2-B,SG-2,2025-05-01,Soil Gas,5,Benzene,512,ug/m3,5,,35.47862,-97.51492,,,Vapor screening,TO-15
+SG-2-2025Q2-T,SG-2,2025-05-01,Soil Gas,5,Trichloroethene,112,ug/m3,5,,35.47862,-97.51492,,,Vapor screening,TO-15
+SG-2-2025Q2-T,SG-2,2025-05-01,Soil Gas,5,Tetrachloroethene,1258,ug/m3,10,,35.47862,-97.51492,,,Vapor screening,TO-15
+SG-2-2025Q2-VC,SG-2,2025-05-01,Soil Gas,5,Vinyl chloride,46.1,ug/m3,2,,35.47862,-97.51492,,,Vapor screening,TO-15
+SG-3-2025Q2-B,SG-3,2025-05-01,Soil Gas,5,Benzene,324,ug/m3,5,,35.47904,-97.51416,,,Vapor screening,TO-15
+SG-3-2025Q2-T,SG-3,2025-05-01,Soil Gas,5,Trichloroethene,82.9,ug/m3,5,,35.47904,-97.51416,,,Vapor screening,TO-15
+SG-3-2025Q2-T,SG-3,2025-05-01,Soil Gas,5,Tetrachloroethene,564,ug/m3,10,,35.47904,-97.51416,,,Vapor screening,TO-15
+SG-3-2025Q2-VC,SG-3,2025-05-01,Soil Gas,5,Vinyl chloride,23.5,ug/m3,2,,35.47904,-97.51416,,,Vapor screening,TO-15
+SG-4-2025Q2-B,SG-4,2025-05-01,Soil Gas,5,Benzene,87.5,ug/m3,5,,35.47949,-97.51344,,,Vapor screening,TO-15
+SG-4-2025Q2-T,SG-4,2025-05-01,Soil Gas,5,Trichloroethene,54.5,ug/m3,5,,35.47949,-97.51344,,,Vapor screening,TO-15
+SG-4-2025Q2-T,SG-4,2025-05-01,Soil Gas,5,Tetrachloroethene,519,ug/m3,10,,35.47949,-97.51344,,,Vapor screening,TO-15
+SG-4-2025Q2-VC,SG-4,2025-05-01,Soil Gas,5,Vinyl chloride,18.5,ug/m3,2,,35.47949,-97.51344,,,Vapor screening,TO-15
+SG-5-2025Q2-B,SG-5,2025-05-01,Soil Gas,5,Benzene,64.8,ug/m3,5,,35.47791,-97.51608,,,Vapor screening,TO-15
+SG-5-2025Q2-T,SG-5,2025-05-01,Soil Gas,5,Trichloroethene,27.5,ug/m3,5,,35.47791,-97.51608,,,Vapor screening,TO-15
+SG-5-2025Q2-T,SG-5,2025-05-01,Soil Gas,5,Tetrachloroethene,84.2,ug/m3,10,,35.47791,-97.51608,,,Vapor screening,TO-15
+SG-5-2025Q2-VC,SG-5,2025-05-01,Soil Gas,5,Vinyl chloride,12.6,ug/m3,2,,35.47791,-97.51608,,,Vapor screening,TO-15
