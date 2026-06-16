@@ -1,0 +1,880 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="E-Rev Workbench is a portfolio prototype for environmental consulting spreadsheet review, QA screening, visual checks, and AI-ready drafting support." />
+    <title>E-Rev Workbench</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="vendor/lucide.min.js"></script>
+    <script defer src="sample-data/large-realistic-environmental-results.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Environmental Review Portfolio Tool</p>
+          <h1>E-Rev Workbench</h1>
+          <p class="topbar-subtitle">CSV-first site data review for environmental consulting workflows.</p>
+        </div>
+        <div class="top-actions">
+          <button class="icon-button" id="helpBtn" type="button" title="Open data guide" aria-label="Open data guide">
+            <i data-lucide="circle-help"></i>
+          </button>
+          <button class="icon-button" id="mathBtn" type="button" title="Open math guide" aria-label="Open math guide">
+            <i data-lucide="calculator"></i>
+          </button>
+          <button class="icon-button" id="loadSampleBtn" type="button" title="Load sample data" aria-label="Load sample data">
+            <i data-lucide="flask-conical"></i>
+          </button>
+          <button class="icon-button" id="resetBtn" type="button" title="Reset workspace" aria-label="Reset workspace">
+            <i data-lucide="rotate-ccw"></i>
+          </button>
+        </div>
+      </header>
+
+      <section class="upload-band" id="dropZone">
+        <div class="upload-copy">
+          <i data-lucide="file-spreadsheet"></i>
+          <div>
+            <h2>Review lab results, field data, and screening criteria</h2>
+            <p>Screen QA flags, exceedances, and trends from site data tables.</p>
+          </div>
+        </div>
+        <div class="upload-actions">
+          <button class="small-button" id="downloadTemplateBtn" type="button">
+            <i data-lucide="file-down"></i>
+            <span>Template</span>
+          </button>
+          <button class="small-button" id="downloadCriteriaTemplateBtn" type="button">
+            <i data-lucide="table"></i>
+            <span>Criteria</span>
+          </button>
+          <button class="small-button" id="loadSmallSampleBtn" type="button">
+            <i data-lucide="flask-conical"></i>
+            <span>Small sample</span>
+          </button>
+          <button class="small-button" id="loadLargeSampleBtn" type="button">
+            <i data-lucide="database"></i>
+            <span>Realistic sample</span>
+          </button>
+          <label class="button primary" for="fileInput">
+            <i data-lucide="upload"></i>
+            <span>Upload data</span>
+          </label>
+          <input id="fileInput" class="sr-only" type="file" accept=".csv,.tsv,.txt,.xlsx,.xls" />
+        </div>
+      </section>
+
+      <section class="prototype-context-panel" aria-label="Prototype context and limitations">
+        <article>
+          <i data-lucide="circle-help"></i>
+          <div>
+            <strong>Purpose</strong>
+            <p>A portfolio prototype for streamlining spreadsheet-heavy environmental review with auditable calculations and AI-ready drafting support.</p>
+          </div>
+        </article>
+        <article>
+          <i data-lucide="triangle-alert"></i>
+          <div>
+            <strong>Limitations</strong>
+            <p>Uses fictitious sample data and starter screening criteria. Trend labels and exceedance checks are first-pass review aids, not regulatory conclusions.</p>
+          </div>
+        </article>
+        <article>
+          <i data-lucide="shield-check"></i>
+          <div>
+            <strong>Data Boundary</strong>
+            <p>Core CSV and sample-data reviews run in the browser. This version does not send project data to a live AI model.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="workflow-strip" aria-label="Review workflow">
+        <div class="workflow-step" id="workflowUpload">
+          <span><i data-lucide="upload"></i></span>
+          <strong>Upload</strong>
+        </div>
+        <div class="workflow-step" id="workflowFields">
+          <span><i data-lucide="list-checks"></i></span>
+          <strong>Confirm Fields</strong>
+        </div>
+        <div class="workflow-step" id="workflowQa">
+          <span><i data-lucide="badge-check"></i></span>
+          <strong>Review QA</strong>
+        </div>
+        <div class="workflow-step" id="workflowResults">
+          <span><i data-lucide="chart-no-axes-combined"></i></span>
+          <strong>Review Results</strong>
+        </div>
+        <div class="workflow-step" id="workflowExport">
+          <span><i data-lucide="download"></i></span>
+          <strong>Export</strong>
+        </div>
+      </section>
+
+      <section class="quick-start-panel" aria-label="Quick start">
+        <div class="quick-start-heading">
+          <p class="eyebrow">Start Here</p>
+          <h2>Run a screening review in five moves</h2>
+        </div>
+        <div class="quick-start-steps">
+          <div class="quick-step">
+            <span><i data-lucide="database"></i></span>
+            <strong>Load Data</strong>
+            <p>Use the realistic sample or upload a CSV.</p>
+          </div>
+          <div class="quick-step">
+            <span><i data-lucide="list-checks"></i></span>
+            <strong>Confirm Fields</strong>
+            <p>Check location, date, matrix, analyte, result, units, depth, and coordinates.</p>
+          </div>
+          <div class="quick-step">
+            <span><i data-lucide="badge-check"></i></span>
+            <strong>Review QA</strong>
+            <p>Resolve flags before trusting tables or memo language.</p>
+          </div>
+          <div class="quick-step">
+            <span><i data-lucide="map"></i></span>
+            <strong>Check Views</strong>
+            <p>Scan exceedances, trends, depth profiles, and mapped locations.</p>
+          </div>
+          <div class="quick-step">
+            <span><i data-lucide="download"></i></span>
+            <strong>Export</strong>
+            <p>Download tables, memo text, or an AI-ready review prompt.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio-panel" aria-label="Portfolio brief">
+        <div class="portfolio-header">
+          <div>
+            <p class="eyebrow">Portfolio Brief</p>
+            <h2>Environmental Review Workflow Prototype</h2>
+          </div>
+          <button class="small-button" id="downloadDemoBriefBtn" type="button">
+            <i data-lucide="file-text"></i>
+            <span>Brief</span>
+          </button>
+        </div>
+        <div class="portfolio-grid">
+          <article>
+            <strong>What it is</strong>
+            <p>A local workbench that reads environmental result tables, maps fields, screens QA items, compares starter criteria, and exports auditable review packages.</p>
+          </article>
+          <article>
+            <strong>Consulting value</strong>
+            <p>It reduces repetitive spreadsheet review, standardizes early QA checks, and lets consultants spend more time interpreting results.</p>
+          </article>
+          <article>
+            <strong>AI positioning</strong>
+            <p>The app owns the math. AI is used for drafting support and language review from verified E-Rev findings, not for inventing conclusions.</p>
+          </article>
+          <article>
+            <strong>Next build path</strong>
+            <p>Secure AI drafting, verified criteria libraries, Word/PDF exports, project storage, client templates, and deeper GIS integration.</p>
+          </article>
+        </div>
+        <div class="portfolio-story">
+          <div>
+            <h3>Project story</h3>
+            <p>E-Rev started as a practical response to a real consulting workflow question: where can AI help without hiding the math? The design keeps screening, trend, profile, QA, and map logic deterministic, then uses AI only after verified findings exist.</p>
+          </div>
+          <div class="portfolio-skills" aria-label="Skills demonstrated">
+            <span>Environmental data review</span>
+            <span>CSV parsing</span>
+            <span>QA logic</span>
+            <span>Trend screening</span>
+            <span>Depth profiles</span>
+            <span>Map visualization</span>
+            <span>Responsible AI workflow</span>
+          </div>
+        </div>
+      </section>
+
+      <main class="workspace">
+        <aside class="side-panel">
+          <section class="panel project-panel">
+            <div class="panel-title">
+              <h2>Project Setup</h2>
+              <button class="icon-button compact" id="clearProjectBtn" type="button" title="Clear project setup" aria-label="Clear project setup">
+                <i data-lucide="eraser"></i>
+              </button>
+            </div>
+            <form class="project-form" id="projectForm">
+              <label>
+                <span>Project</span>
+                <input id="projectName" type="text" placeholder="Project name" autocomplete="off" />
+              </label>
+              <label>
+                <span>Site</span>
+                <input id="siteName" type="text" placeholder="Site name or address" autocomplete="off" />
+              </label>
+              <label>
+                <span>Client</span>
+                <input id="clientName" type="text" placeholder="Client" autocomplete="off" />
+              </label>
+              <label>
+                <span>Reviewer</span>
+                <input id="reviewerName" type="text" placeholder="Reviewer" autocomplete="off" />
+              </label>
+              <label>
+                <span>Review Date</span>
+                <input id="reviewDate" type="date" />
+              </label>
+              <label class="project-notes">
+                <span>Notes</span>
+                <textarea id="projectNotes" rows="3" placeholder="Assumptions, criteria source, review scope"></textarea>
+              </label>
+            </form>
+          </section>
+
+          <section class="panel">
+            <div class="panel-title">
+              <h2>Detected Fields</h2>
+              <button class="small-button" id="applyMappingBtn" type="button">
+                <i data-lucide="check"></i>
+                <span>Apply</span>
+              </button>
+            </div>
+            <div id="mappingState" class="muted-state">No file loaded.</div>
+            <div id="mappingTable" class="mapping-table"></div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-title">
+              <h2>Screening Criteria</h2>
+              <label class="icon-button compact" for="criteriaInput" title="Import criteria CSV" aria-label="Import criteria CSV">
+                <i data-lucide="table"></i>
+              </label>
+              <input id="criteriaInput" class="sr-only" type="file" accept=".csv,.tsv,.txt" />
+            </div>
+            <form id="criterionForm" class="criteria-form">
+              <input id="criterionAnalyte" type="text" placeholder="Analyte" autocomplete="off" />
+              <select id="criterionMatrix" aria-label="Matrix">
+                <option value="water">Water</option>
+                <option value="soil">Soil</option>
+                <option value="air">Air</option>
+                <option value="sediment">Sediment</option>
+              </select>
+              <input id="criterionValue" type="number" step="any" placeholder="Value" />
+              <input id="criterionUnits" type="text" placeholder="Units" />
+              <input id="criterionSource" type="text" placeholder="Source" />
+              <button class="small-button add-criterion" type="submit">
+                <i data-lucide="plus"></i>
+                <span>Add</span>
+              </button>
+            </form>
+            <p class="criteria-note">Starter criteria are placeholders for screening workflow only. Verify current federal, state, and project standards before relying on results.</p>
+            <div id="criteriaList" class="criteria-list"></div>
+          </section>
+        </aside>
+
+        <section class="results-area">
+          <section class="metrics-grid" aria-label="Analysis summary">
+            <article class="metric">
+              <span>Records</span>
+              <strong id="metricRecords">0</strong>
+            </article>
+            <article class="metric">
+              <span>Detections</span>
+              <strong id="metricDetections">0</strong>
+            </article>
+            <article class="metric">
+              <span>Exceedances</span>
+              <strong id="metricExceedances">0</strong>
+            </article>
+            <article class="metric">
+              <span>QA Flags</span>
+              <strong id="metricFlags">0</strong>
+            </article>
+          </section>
+
+          <section class="panel dashboard-panel">
+            <div class="panel-title">
+              <h2>Review Dashboard</h2>
+              <span class="review-status" id="dashboardStatus">Waiting for data</span>
+            </div>
+            <div class="dashboard-grid">
+              <article class="dashboard-card">
+                <span>Top Exceedance</span>
+                <strong id="dashTopExceedance">-</strong>
+                <p id="dashTopExceedanceMeta">Load data to summarize exceedances.</p>
+              </article>
+              <article class="dashboard-card">
+                <span>Primary QA Issue</span>
+                <strong id="dashQaIssue">-</strong>
+                <p id="dashQaIssueMeta">QA summary will appear after analysis.</p>
+              </article>
+              <article class="dashboard-card">
+                <span>Trend Mix</span>
+                <strong id="dashTrendMix">-</strong>
+                <p id="dashTrendMixMeta">Trend labels need at least three dated detections.</p>
+              </article>
+              <article class="dashboard-card">
+                <span>Detection Focus</span>
+                <strong id="dashDetectionFocus">-</strong>
+                <p id="dashDetectionFocusMeta">Detection frequency will appear after upload.</p>
+              </article>
+            </div>
+            <div class="visual-snapshot">
+              <div class="chart-block">
+                <div class="chart-title">
+                  <h3>QA Issue Breakdown</h3>
+                  <span id="qaChartTotal">0 flags</span>
+                </div>
+                <div id="qaIssueChart" class="segment-chart"></div>
+              </div>
+              <div class="chart-block">
+                <div class="chart-title">
+                  <h3>Trend Status</h3>
+                  <span id="trendChartTotal">0 series</span>
+                </div>
+                <div id="trendStatusChart" class="segment-chart"></div>
+              </div>
+              <div class="chart-block wide">
+                <div class="chart-title">
+                  <h3>Detection Frequency</h3>
+                  <span id="detectionChartTotal">0 analytes</span>
+                </div>
+                <div id="detectionChart" class="frequency-chart"></div>
+              </div>
+            </div>
+            <div class="dashboard-lists">
+              <div>
+                <h3>Exceedances by Analyte</h3>
+                <div id="dashAnalyteList" class="rank-list"></div>
+              </div>
+              <div>
+                <h3>Exceedances by Location</h3>
+                <div id="dashLocationList" class="rank-list"></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel filter-panel">
+            <div class="panel-title">
+              <h2>Filters</h2>
+              <button class="small-button" id="clearFiltersBtn" type="button">
+                <i data-lucide="x"></i>
+                <span>Clear</span>
+              </button>
+            </div>
+            <div class="filter-grid">
+              <label>
+                <span>Matrix</span>
+                <select id="filterMatrix"></select>
+              </label>
+              <label>
+                <span>Location</span>
+                <select id="filterLocation"></select>
+              </label>
+              <label>
+                <span>Analyte</span>
+                <select id="filterAnalyte"></select>
+              </label>
+              <label>
+                <span>Date From</span>
+                <input id="filterDateFrom" type="date" />
+              </label>
+              <label>
+                <span>Date To</span>
+                <input id="filterDateTo" type="date" />
+              </label>
+              <label>
+                <span>Search</span>
+                <input id="filterSearch" type="search" placeholder="Well, analyte, sample ID" />
+              </label>
+              <label class="toggle-row">
+                <input id="filterExceedanceOnly" type="checkbox" />
+                <span>Exceedances only</span>
+              </label>
+            </div>
+            <p class="filter-note" id="filterNote">Filters apply to tables, trend choices, depth profiles, map locations, and exports.</p>
+          </section>
+
+          <section class="panel report-panel">
+            <div class="panel-title">
+              <h2>Report Note</h2>
+              <div class="button-row">
+                <button class="icon-button compact" id="copySummaryBtn" type="button" title="Copy report note" aria-label="Copy report note">
+                  <i data-lucide="copy"></i>
+                </button>
+                <button class="icon-button compact" id="downloadSummaryBtn" type="button" title="Download report note" aria-label="Download report note">
+                  <i data-lucide="download"></i>
+                </button>
+              </div>
+            </div>
+            <p id="summaryText" class="summary-text">Upload environmental data to generate a concise screening note.</p>
+          </section>
+
+          <section class="panel memo-panel">
+            <div class="panel-title">
+              <h2>Review Memo</h2>
+              <div class="button-row">
+                <button class="icon-button compact" id="copyMemoBtn" type="button" title="Copy review memo" aria-label="Copy review memo">
+                  <i data-lucide="copy"></i>
+                </button>
+                <button class="icon-button compact" id="downloadMemoBtn" type="button" title="Download review memo" aria-label="Download review memo">
+                  <i data-lucide="download"></i>
+                </button>
+              </div>
+            </div>
+            <pre id="memoPreview" class="memo-preview">Upload data to generate a structured review memo.</pre>
+          </section>
+
+          <section class="panel ai-panel">
+            <div class="panel-title">
+              <h2>AI Review Prompt</h2>
+              <div class="button-row">
+                <button class="icon-button compact" id="copyAiPromptBtn" type="button" title="Copy AI review prompt" aria-label="Copy AI review prompt">
+                  <i data-lucide="copy"></i>
+                </button>
+                <button class="icon-button compact" id="downloadAiPromptBtn" type="button" title="Download AI review prompt" aria-label="Download AI review prompt">
+                  <i data-lucide="download"></i>
+                </button>
+              </div>
+            </div>
+            <pre id="aiPromptPreview" class="memo-preview ai-prompt-preview">Upload data to generate an AI-ready review prompt.</pre>
+          </section>
+
+          <section class="panel ai-assistant-panel">
+            <div class="panel-title">
+              <h2>AI Review Assistant</h2>
+              <span class="review-status" id="aiAssistantStatus">Waiting for data</span>
+            </div>
+            <div class="ai-assistant-grid">
+              <div class="ai-assistant-column">
+                <div class="ai-column-title">
+                  <h3>Local Draft Brief</h3>
+                  <div class="button-row">
+                    <button class="icon-button compact" id="copyAiBriefBtn" type="button" title="Copy AI assistant brief" aria-label="Copy AI assistant brief">
+                      <i data-lucide="copy"></i>
+                    </button>
+                    <button class="icon-button compact" id="downloadAiBriefBtn" type="button" title="Download AI assistant brief" aria-label="Download AI assistant brief">
+                      <i data-lucide="download"></i>
+                    </button>
+                  </div>
+                </div>
+                <pre id="aiBriefPreview" class="memo-preview ai-brief-preview">Upload data to generate a consultant-style draft brief.</pre>
+              </div>
+              <div class="ai-assistant-column">
+                <div class="ai-column-title">
+                  <h3>AI Draft QA</h3>
+                  <button class="small-button" id="checkAiDraftBtn" type="button">
+                    <i data-lucide="badge-check"></i>
+                    <span>Check</span>
+                  </button>
+                </div>
+                <textarea id="aiDraftInput" class="ai-draft-input" rows="7" placeholder="Paste AI-written text here to check for missing E-Rev counts, caveats, or overconfident language."></textarea>
+                <div id="aiDraftChecklist" class="ai-checklist"></div>
+              </div>
+            </div>
+            <p class="ai-assistant-note">E-Rev keeps calculations, criteria comparisons, trends, and map summaries deterministic. Use AI for drafting language, then check the draft against this panel before sharing.</p>
+          </section>
+
+          <section class="panel package-panel">
+            <div class="panel-title">
+              <h2>Review Package</h2>
+              <button class="small-button" id="downloadPackageBtn" type="button">
+                <i data-lucide="package-check"></i>
+                <span>HTML</span>
+              </button>
+            </div>
+            <p class="package-note">Download a self-contained review file with project setup, summaries, tables, memo text, AI prompt, and current chart snapshots.</p>
+          </section>
+
+          <section class="panel qa-panel">
+            <div class="panel-title">
+              <h2>QA Review</h2>
+              <span class="review-status" id="qaStatus">Waiting for data</span>
+            </div>
+            <div class="qa-summary-grid" id="qaSummaryGrid"></div>
+          </section>
+
+          <section class="panel chart-panel">
+            <div class="panel-title">
+              <h2>Trend View</h2>
+              <div class="select-wrap">
+                <select id="trendSelect" aria-label="Trend series"></select>
+              </div>
+            </div>
+            <p class="trend-rule-note">First-pass screen: trends need 3 unique sample dates. Stable means R&sup2; is below 0.20 or the change is within &plusmn;15% per year; stronger positive slopes are Increasing and stronger negative slopes are Decreasing.</p>
+            <canvas id="trendCanvas" width="940" height="360" aria-label="Trend chart"></canvas>
+          </section>
+
+          <section class="panel depth-panel">
+            <div class="panel-title">
+              <h2>Depth Profile View</h2>
+              <div class="select-wrap">
+                <select id="depthProfileSelect" aria-label="Depth profile series"></select>
+              </div>
+            </div>
+            <canvas id="depthCanvas" width="940" height="360" aria-label="Depth profile chart"></canvas>
+            <p class="depth-note">Same-day soil boring intervals are shown here as concentration by depth, not as time trends.</p>
+          </section>
+
+          <section class="panel map-panel">
+            <div class="panel-title">
+              <h2>Map View</h2>
+              <div class="map-controls">
+                <label class="map-toggle" title="Use online basemap tiles when available">
+                  <input id="mapBasemapToggle" type="checkbox" />
+                  <span>Basemap</span>
+                </label>
+                <button class="icon-button compact" id="openGoogleMapBtn" type="button" title="Open current map center in Google Maps" aria-label="Open current map center in Google Maps">
+                  <i data-lucide="external-link"></i>
+                </button>
+                <span class="review-status" id="mapStatus">No coordinates</span>
+              </div>
+            </div>
+            <canvas id="mapCanvas" width="940" height="420" aria-label="Mapped sample locations"></canvas>
+            <div class="map-legend" aria-label="Map legend">
+              <span><i class="map-dot red"></i>Exceeds</span>
+              <span><i class="map-dot amber"></i>QA review</span>
+              <span><i class="map-dot green"></i>Below or nondetect</span>
+            </div>
+          </section>
+
+          <nav class="tab-bar" aria-label="Result views">
+            <button class="tab active" data-view="exceedances" type="button">
+              <i data-lucide="triangle-alert"></i>
+              <span>Exceedances</span>
+            </button>
+            <button class="tab" data-view="qa" type="button">
+              <i data-lucide="badge-check"></i>
+              <span>QA Flags</span>
+            </button>
+            <button class="tab" data-view="trends" type="button">
+              <i data-lucide="chart-no-axes-combined"></i>
+              <span>Trends</span>
+            </button>
+            <button class="tab" data-view="profiles" type="button">
+              <i data-lucide="ruler"></i>
+              <span>Depth Profiles</span>
+            </button>
+            <button class="tab" data-view="map" type="button">
+              <i data-lucide="map"></i>
+              <span>Map Locations</span>
+            </button>
+            <button class="tab" data-view="clean" type="button">
+              <i data-lucide="database"></i>
+              <span>Clean Data</span>
+            </button>
+          </nav>
+
+          <section class="panel table-panel">
+            <div class="panel-title">
+              <h2 id="tableTitle">Exceedances</h2>
+              <div class="button-row">
+                <button class="small-button" id="downloadActiveBtn" type="button">
+                  <i data-lucide="download"></i>
+                  <span>CSV</span>
+                </button>
+              </div>
+            </div>
+            <div id="activeTable" class="data-table-wrap"></div>
+          </section>
+        </section>
+      </main>
+
+      <dialog class="help-dialog" id="helpDialog" aria-labelledby="helpTitle">
+        <div class="help-header">
+          <div>
+            <p class="eyebrow">Data guide</p>
+            <h2 id="helpTitle">Using E-Rev Workbench</h2>
+          </div>
+          <button class="icon-button compact" id="closeHelpBtn" type="button" title="Close guide" aria-label="Close guide">
+            <i data-lucide="x"></i>
+          </button>
+        </div>
+        <div class="help-content">
+          <section>
+            <h3>Review Flow</h3>
+            <ol>
+              <li>Upload a CSV, TSV, or Excel file.</li>
+              <li>Add project context so notes, memos, and downloads have the right heading.</li>
+              <li>Confirm the detected fields on the left.</li>
+              <li>Review QA flags before trusting report tables.</li>
+              <li>Filter by matrix, location, analyte, date, or exceedance status.</li>
+              <li>Export the active table, report note, review memo, AI brief, or review package.</li>
+            </ol>
+          </section>
+          <section>
+            <h3>File Support</h3>
+            <p>CSV, TSV, and TXT files are the most reliable share formats and run fully in the local browser. Excel files can be uploaded when the browser can load the optional online spreadsheet parser; if not, save the worksheet as CSV and upload that file.</p>
+            <p>E-Rev looks for the most likely header row, so common lab-export title rows above the table can be skipped automatically.</p>
+          </section>
+          <section>
+            <h3>Portfolio Brief</h3>
+            <p>The Portfolio Brief section gives the plain-language explanation: what the project does, where it saves consulting time, how AI fits, what skills it demonstrates, and what a production build could add. The Brief button downloads a one-page HTML handout.</p>
+          </section>
+          <section>
+            <h3>Consulting Value</h3>
+            <p>E-Rev is designed to reduce repetitive spreadsheet review, standardize early QA checks, and make outputs easier to audit. The intent is to support consultant judgment, not replace it.</p>
+          </section>
+          <section>
+            <h3>Standards Boundary</h3>
+            <p>E-Rev supports preliminary data review. It does not perform formal laboratory data validation, QAPP/SAP compliance review, statistical compliance testing, risk assessment, cleanup-level selection, or regulatory closure determinations.</p>
+            <p>Use the outputs as screening-level prompts, then confirm against the project work plan, lab report, validated data package, governing agency guidance, and verified criteria library.</p>
+            <div class="guide-links">
+              <a href="https://www.epa.gov/risk/regional-screening-levels-rsls" target="_blank" rel="noopener">EPA RSLs</a>
+              <a href="https://www.epa.gov/quality/guidance-data-quality-assessment" target="_blank" rel="noopener">EPA Data Quality Assessment</a>
+              <a href="https://www.epa.gov/clp/superfund-clp-national-functional-guidelines-data-review" target="_blank" rel="noopener">EPA Data Review Guidelines</a>
+              <a href="https://archive.epa.gov/epawaste/hazard/web/pdf/unified-guid.pdf" target="_blank" rel="noopener">EPA Groundwater Statistics</a>
+            </div>
+          </section>
+          <section>
+            <h3>Expected Data Columns</h3>
+            <div class="guide-chips">
+              <span>Sample ID</span>
+              <span>Location</span>
+              <span>Sample Date</span>
+              <span>Matrix</span>
+              <span>Analyte</span>
+              <span>Result</span>
+              <span>Units</span>
+              <span>Reporting Limit</span>
+              <span>Qualifier</span>
+              <span>Depth / From / To</span>
+              <span>Latitude</span>
+              <span>Longitude</span>
+            </div>
+            <p>Location, sample date, matrix, analyte, result, and units drive most of the review. Sample ID, reporting limits, qualifiers, depth or From/To intervals, and coordinates improve QA checks, trends, map view, and depth profiles.</p>
+            <p>Plain-text spreadsheet units such as ug/L and ug/m3 are accepted. Charts and tables display those units as &micro;g/L and &micro;g/m&sup3;, while CSV exports keep the plain-text unit labels.</p>
+            <p>If analytes are stored as separate result columns, map those columns as Analyte Result.</p>
+          </section>
+          <section>
+            <h3>Project Setup</h3>
+            <p>Project details are saved in this browser for the local app. They are used in the report note, review memo, and cleaner export filenames.</p>
+          </section>
+          <section>
+            <h3>QA Flags</h3>
+            <p>QA flags are spreadsheet-level review prompts, not final data validation decisions. They point to missing fields, unit conversion issues, reporting limits above criteria, rejected or blank-qualified results, negative or zero detected values, possible duplicates, and analytes without active criteria.</p>
+            <p>Formal validation may also review blanks, surrogate recovery, calibration, holding times, instrument checks, preservation, chain of custody, method-specific QC, and project-specific acceptance limits.</p>
+          </section>
+          <section>
+            <h3>Review Dashboard</h3>
+            <p>Dashboard cards, chart bars, and ranked lists use the active filters. They summarize exceedances, QA issues, trend status, and detection frequency for the current view.</p>
+          </section>
+          <section>
+            <h3>Filters and Exports</h3>
+            <p>Filters apply to the dashboard, result tables, trend choices, report note, review memo, and CSV exports. Clear filters before exporting when you need the full dataset.</p>
+            <p>When Exceedances only is active, tables narrow to exceedance records. Trend and depth views preserve the full matching series for any group with an exceedance so charts do not lose supporting time-series or vertical-profile points.</p>
+          </section>
+          <section>
+            <h3>Review Memo</h3>
+            <p>The memo export uses the current project setup and active filters. It includes dataset summary, QA summary, screening summary, top exceedances, trend summary, notes, and a criteria caveat.</p>
+          </section>
+          <section>
+            <h3>AI Review Prompt</h3>
+            <p>The AI prompt export packages the current deterministic findings into a drafting prompt. Use it to ask an AI assistant for consultant-style memo language without asking the AI to redo the math.</p>
+          </section>
+          <section>
+            <h3>AI Review Assistant</h3>
+            <p>The assistant panel creates a local draft brief from E-Rev findings and checks pasted AI language for missing counts, missing caveats, and common overconfident regulatory wording. It does not send data to an outside AI service.</p>
+          </section>
+          <section>
+            <h3>Review Package</h3>
+            <p>The review package export creates one HTML file with the current filtered summaries, tables, memo text, AI prompt, AI assistant brief, and chart snapshots for internal sharing.</p>
+          </section>
+          <section>
+            <h3>Trends</h3>
+            <p>Trend labels are a first-pass screen using dated detections by location, matrix, and analyte. Nondetects are excluded from the trend fit.</p>
+            <p>A trend requires at least 3 unique sample dates. When the same location, matrix, and analyte has multiple results on one date, E-Rev keeps the highest result for that date so duplicate rows or soil boring depth intervals do not create vertical time-trend lines.</p>
+            <p>Trend math uses a simple log-linear fit on positive detected concentrations only. It is not a Mann-Kendall test, Sen's slope, prediction-limit test, confidence-interval compliance test, plume model, or formal groundwater statistical evaluation.</p>
+            <p>Stable means no clear trend signal under the current screening rule: either R&sup2; is below 0.20 or the modeled change is smaller than &plusmn;15% per year. If the fit is stronger and the modeled change exceeds that threshold, positive slopes are labeled Increasing and negative slopes are labeled Decreasing.</p>
+            <p>Same-day depth profiles are not treated as time trends. Use the trend view as a screening aid and confirm conclusions with the project hydrogeologic or sampling context.</p>
+          </section>
+          <section>
+            <h3>Depth Profiles</h3>
+            <p>Depth profiles use records with a mapped depth field, such as 0-2 ft or 4-6 ft. Separate From and To columns are also supported. E-Rev groups them by location, date, matrix, and analyte, then plots concentration against depth.</p>
+            <p>Profiles are useful for soil borings and other same-day vertical sampling. They require at least 2 unique depth intervals.</p>
+          </section>
+          <section>
+            <h3>Map View</h3>
+            <p>Map View uses mapped latitude and longitude fields. The north arrow and latitude/longitude axes preserve an equal local site scale.</p>
+            <p>Basemap mode uses online map tiles when available and keeps a practical minimum window around single-location filters. The Google Maps button opens the center of the current filtered mapped locations in Google Maps.</p>
+          </section>
+          <section>
+            <h3>Screening Criteria</h3>
+            <p>The starter values are placeholders for testing the workflow. Replace them with verified project, state, federal, or client standards before using the output in a formal deliverable.</p>
+            <p>Screening levels are comparison values, not automatic cleanup standards. Document the source, medium, exposure assumption, units, and effective date for any criteria used in a real review.</p>
+          </section>
+        </div>
+      </dialog>
+
+      <dialog class="help-dialog" id="mathDialog" aria-labelledby="mathTitle">
+        <div class="help-header">
+          <div>
+            <p class="eyebrow">Math guide</p>
+            <h2 id="mathTitle">How E-Rev Calculates Results</h2>
+          </div>
+          <button class="icon-button compact" id="closeMathBtn" type="button" title="Close math guide" aria-label="Close math guide">
+            <i data-lucide="x"></i>
+          </button>
+        </div>
+        <div class="help-content math-content">
+          <section>
+            <h3>Calculation Boundary</h3>
+            <p>E-Rev uses deterministic spreadsheet math for first-pass screening. It does not perform formal data validation, risk assessment, groundwater statistical compliance testing, cleanup-level selection, or regulatory decision-making.</p>
+            <p>All formulas use the currently mapped fields, active criteria, and active filters. If a field is mapped incorrectly, the math will follow that mapping, so field confirmation is part of the review.</p>
+          </section>
+          <section>
+            <h3>Record Parsing</h3>
+            <div class="formula-grid">
+              <article class="formula-card">
+                <strong>Detected result</strong>
+                <p>E-Rev extracts the first number from the result cell. A result is treated as nondetect when the result starts with <code>&lt;</code>, contains <code>ND</code>, or the qualifier contains <code>U</code>.</p>
+              </article>
+              <article class="formula-card">
+                <strong>Detection count</strong>
+                <p><code>detections = records where result is numeric and not nondetect</code></p>
+              </article>
+              <article class="formula-card">
+                <strong>Canonical analyte</strong>
+                <p>Common aliases are grouped for matching, such as <code>PCE = Tetrachloroethene</code>, <code>TCE = Trichloroethene</code>, and <code>Total Xylenes = Xylenes</code>.</p>
+              </article>
+            </div>
+          </section>
+          <section>
+            <h3>Unit Normalization</h3>
+            <p>E-Rev normalizes results to one display unit per matrix before screening: groundwater/water to <code>&micro;g/L</code>, soil/sediment to <code>mg/kg</code>, and air/soil gas to <code>&micro;g/m&sup3;</code>.</p>
+            <div class="formula-grid">
+              <article class="formula-card">
+                <strong>Water</strong>
+                <p><code>mg/L x 1000 = &micro;g/L</code></p>
+                <p><code>ng/L x 0.001 = &micro;g/L</code></p>
+              </article>
+              <article class="formula-card">
+                <strong>Soil</strong>
+                <p><code>&micro;g/kg x 0.001 = mg/kg</code></p>
+                <p><code>ppm = mg/kg</code></p>
+              </article>
+              <article class="formula-card">
+                <strong>Air</strong>
+                <p><code>mg/m&sup3; x 1000 = &micro;g/m&sup3;</code></p>
+                <p><code>ng/m&sup3; x 0.001 = &micro;g/m&sup3;</code></p>
+              </article>
+            </div>
+          </section>
+          <section>
+            <h3>Criteria Screening</h3>
+            <div class="formula-grid">
+              <article class="formula-card">
+                <strong>Criteria match</strong>
+                <p>E-Rev matches criteria by canonical analyte name and matrix. If no active criterion exists, the record is flagged as <code>No criterion</code>.</p>
+              </article>
+              <article class="formula-card">
+                <strong>Exceedance</strong>
+                <p><code>exceeds = detected normalized result &gt; normalized criterion</code></p>
+              </article>
+              <article class="formula-card">
+                <strong>Multiple</strong>
+                <p><code>multiple = normalized result / normalized criterion</code></p>
+              </article>
+              <article class="formula-card">
+                <strong>Nondetect reporting limit</strong>
+                <p>If a nondetect reporting limit is greater than the criterion, E-Rev flags <code>RL above criterion</code> but does not count it as an exceedance.</p>
+              </article>
+            </div>
+          </section>
+          <section>
+            <h3>QA Flags</h3>
+            <p>QA flags are rule-based review prompts. E-Rev flags missing location, date, analyte, result, or units; unconverted units; reporting limits above criteria; detected analytes without criteria; <code>B</code> or <code>R</code> qualifiers; possible duplicate rows; negative detected results; and zero detected results.</p>
+          </section>
+          <section>
+            <h3>Trend Screening</h3>
+            <p>Trend screening is a simple log-linear screen, not a formal groundwater statistical test. Nondetects, zero detected values, and negative detected values are excluded from trend fitting.</p>
+            <div class="formula-grid">
+              <article class="formula-card">
+                <strong>Grouping</strong>
+                <p><code>group = location + matrix + analyte</code></p>
+                <p>At least 3 unique sample dates are required.</p>
+              </article>
+              <article class="formula-card">
+                <strong>Same-day rule</strong>
+                <p>If a group has multiple results on one date, E-Rev keeps the highest normalized result for that date.</p>
+              </article>
+              <article class="formula-card">
+                <strong>X value</strong>
+                <p><code>x = years since first sample date</code></p>
+                <p>Years are calculated using <code>365.25</code> days.</p>
+              </article>
+              <article class="formula-card">
+                <strong>Y value</strong>
+                <p><code>y = ln(normalized concentration)</code></p>
+              </article>
+              <article class="formula-card">
+                <strong>Regression</strong>
+                <p><code>y = intercept + slope x</code></p>
+                <p><code>R&sup2; = 1 - SSresidual / SStotal</code></p>
+              </article>
+              <article class="formula-card">
+                <strong>Change per year</strong>
+                <p><code>percent/year = (e^slope - 1) x 100</code></p>
+              </article>
+              <article class="formula-card">
+                <strong>Status</strong>
+                <p><code>Stable</code> if <code>R&sup2; &lt; 0.20</code> or change is smaller than <code>&plusmn;15%/year</code>. Otherwise positive change is <code>Increasing</code> and negative change is <code>Decreasing</code>.</p>
+              </article>
+              <article class="formula-card">
+                <strong>Next estimate</strong>
+                <p><code>next = e^(intercept + slope x)</code></p>
+                <p>The next x value uses the median spacing between prior sample dates, or <code>0.25</code> years if spacing cannot be estimated.</p>
+              </article>
+            </div>
+          </section>
+          <section>
+            <h3>Depth Profiles</h3>
+            <p>Depth profiles are for same-day vertical sampling, such as soil borings. They are grouped by location, date, matrix, and analyte, and require at least 2 unique depth intervals.</p>
+            <div class="formula-grid">
+              <article class="formula-card">
+                <strong>Depth interval</strong>
+                <p>E-Rev reads depth labels such as <code>0-2 ft</code> or separate <code>From</code> and <code>To</code> columns.</p>
+              </article>
+              <article class="formula-card">
+                <strong>Midpoint</strong>
+                <p><code>midpoint = (top + bottom) / 2</code></p>
+              </article>
+              <article class="formula-card">
+                <strong>Duplicate depth</strong>
+                <p>If duplicate depth midpoints exist in one profile, E-Rev keeps the highest normalized result for that depth.</p>
+              </article>
+              <article class="formula-card">
+                <strong>Profile range</strong>
+                <p><code>range = shallowest top depth to deepest bottom depth</code></p>
+              </article>
+            </div>
+          </section>
+          <section>
+            <h3>Map Calculations</h3>
+            <p>Map locations are grouped by sample location. E-Rev averages the latitude and longitude for each location, then projects those points to a local meter-based plot centered on the filtered locations.</p>
+            <div class="formula-grid">
+              <article class="formula-card">
+                <strong>Longitude to east-west meters</strong>
+                <p><code>x = (longitude - origin longitude) x 111,320 x cos(origin latitude)</code></p>
+              </article>
+              <article class="formula-card">
+                <strong>Latitude to north-south meters</strong>
+                <p><code>y = (latitude - origin latitude) x 110,540</code></p>
+              </article>
+              <article class="formula-card">
+                <strong>Status</strong>
+                <p>A location status is <code>Exceeds</code> if any active record at that location exceeds criteria, <code>QA review</code> if it has QA flags, otherwise <code>Below / nondetect</code>.</p>
+              </article>
+            </div>
+          </section>
+          <section>
+            <h3>Filtered Views</h3>
+            <p>Tables narrow to the active filters. When <code>Exceedances only</code> is active, trend and depth charts keep the full supporting series for groups that contain an exceedance so the charts do not lose context.</p>
+          </section>
+        </div>
+      </dialog>
+
+      <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </div>
+  </body>
+</html>
